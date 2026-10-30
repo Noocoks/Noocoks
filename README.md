@@ -3,11 +3,11 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=34&duration=1800&pause=600&color=D7FF00&center=true&vCenter=true&width=800&lines=NOOCOKS;SYSTEM+OVERDRIVE;WELCOME+TO+THE+CHAOS" alt="Noocoks animated title" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=34&duration=1800&pause=600&color=858B93&center=true&vCenter=true&width=800&lines=NOOCOKS;SYSTEM+OVERDRIVE;WELCOME+TO+THE+CHAOS" alt="Noocoks animated title" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=21&duration=1900&pause=500&color=FF3333&center=true&vCenter=true&width=900&lines=CYBERSECURITY+%2F%2F+CODE+%2F%2F+CHAOS;NO+SLEEP.+JUST+BUILD.;BREAK+THE+PATTERN.+NOT+THE+LAW.;UNDERGROUND+MINDSET.+OPEN+SOURCE+SOUL." alt="Animated profile tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=21&duration=1900&pause=500&color=790018&center=true&vCenter=true&width=900&lines=CYBERSECURITY+%2F%2F+CODE+%2F%2F+CHAOS;NO+SLEEP.+JUST+BUILD.;BREAK+THE+PATTERN.+NOT+THE+LAW.;UNDERGROUND+MINDSET.+OPEN+SOURCE+SOUL." alt="Animated profile tagline" />
 </div>
 
 <div align="center">
@@ -185,6 +185,6 @@ me.say_hello()
 
 *Construyendo. Experimentando. Rompiendo límites (en laboratorio).*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,50:D7FF00,100:FF3333&height=100&section=footer" width="100%" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,50:858B93,100:790018&height=100&section=footer" width="100%" alt="Footer"/>
 
 </div>
