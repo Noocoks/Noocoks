@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".52" stop-color="#101010"/><stop offset="1" stop-color="#210006"/></linearGradient>
-  <linearGradient id="acid" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D7FF00"/><stop offset=".5" stop-color="#F4FF7A"/><stop offset="1" stop-color="#D7FF00"/></linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#D7FF00" stroke-opacity=".11" stroke-width="1"/></pattern>
-  <pattern id="hazard" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="13" height="26" fill="#D7FF00"/><rect x="13" width="13" height="26" fill="#111"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".52" stop-color="#101010"/><stop offset="1" stop-color="#3D000D"/></linearGradient>
+  <linearGradient id="acid" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#858B93"/><stop offset=".5" stop-color="#B5BAC0"/><stop offset="1" stop-color="#858B93"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#858B93" stroke-opacity=".11" stroke-width="1"/></pattern>
+  <pattern id="hazard" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="13" height="26" fill="#858B93"/><rect x="13" width="13" height="26" fill="#111"/></pattern>
   <filter id="limeGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="8"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .08 0"/></filter>
@@ -22,35 +22,35 @@
 </defs>
 <rect width="1200" height="390" fill="url(#bg)"/>
 <rect width="1200" height="390" fill="url(#grid)"/>
-<path d="M0 18H1200M0 372H1200" stroke="#D7FF00" stroke-width="3" filter="url(#limeGlow)"/>
-<path d="M0 28H1200M0 362H1200" stroke="#FF3333" stroke-opacity=".8" stroke-width="1"/>
-<path d="M0 70L160 70 205 25 995 25 1040 70H1200M0 320H1200L1040 365H160Z" fill="none" stroke="#D7FF00" stroke-opacity=".4" stroke-width="2"/>
+<path d="M0 18H1200M0 372H1200" stroke="#858B93" stroke-width="3" filter="url(#limeGlow)"/>
+<path d="M0 28H1200M0 362H1200" stroke="#790018" stroke-opacity=".8" stroke-width="1"/>
+<path d="M0 70L160 70 205 25 995 25 1040 70H1200M0 320H1200L1040 365H160Z" fill="none" stroke="#858B93" stroke-opacity=".4" stroke-width="2"/>
 <rect x="22" y="42" width="18" height="306" fill="url(#hazard)"/>
 <rect x="1160" y="42" width="18" height="306" fill="url(#hazard)"/>
-<g fill="#D7FF00" font-family="monospace" font-weight="bold" letter-spacing="4">
+<g fill="#858B93" font-family="monospace" font-weight="bold" letter-spacing="4">
  <text x="78" y="65" font-size="15">NOOCOKS // UNDERGROUND DIVISION</text>
  <text x="1120" y="65" text-anchor="end" font-size="15">SIGNAL: UNSTABLE</text>
 </g>
-<g opacity=".8" stroke="#FF3333" stroke-width="2" fill="none">
+<g opacity=".8" stroke="#790018" stroke-width="2" fill="none">
  <path d="M80 95H300L330 125H870L900 95H1120"/>
  <path d="M80 295H260L290 265H910L940 295H1120"/>
 </g>
 <g class="glitch" text-anchor="middle" font-family="monospace" font-weight="900" letter-spacing="7">
- <text x="604" y="211" font-size="104" fill="#FF3333" opacity=".8" filter="url(#redGlow)">NOOCOKS</text>
- <text x="596" y="205" font-size="104" fill="#D7FF00" filter="url(#limeGlow)">NOOCOKS</text>
- <text x="600" y="205" font-size="104" fill="#F8F8F8" opacity=".94">NOOCOKS</text>
+ <text x="604" y="211" font-size="104" fill="#790018" opacity=".8" filter="url(#redGlow)">NOOCOKS</text>
+ <text x="596" y="205" font-size="104" fill="#858B93" filter="url(#limeGlow)">NOOCOKS</text>
+ <text x="600" y="205" font-size="104" fill="#D8DADD" opacity=".94">NOOCOKS</text>
 </g>
-<g class="flicker" fill="#D7FF00" font-family="monospace" font-weight="bold" text-anchor="middle" letter-spacing="7">
+<g class="flicker" fill="#858B93" font-family="monospace" font-weight="bold" text-anchor="middle" letter-spacing="7">
  <text x="600" y="245" font-size="19">CYBERSECURITY // CODE // CHAOS</text>
 </g>
-<g fill="#FF3333" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="3">
+<g fill="#790018" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="3">
  <text x="82" y="340">[ SYSTEM OVERRIDE ]</text>
  <text x="1118" y="340" text-anchor="end">[ NO LIMITER ]</text>
 </g>
 <g transform="translate(440 280)" class="pulse">
- <rect class="bar" style="animation-delay:0s" x="0" y="0" width="5" height="12" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="10" y="0" width="5" height="19" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="20" y="0" width="5" height="26" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="30" y="0" width="5" height="33" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="40" y="0" width="5" height="40" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="50" y="0" width="5" height="47" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="60" y="0" width="5" height="18" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="70" y="0" width="5" height="25" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="80" y="0" width="5" height="32" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="90" y="0" width="5" height="39" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="100" y="0" width="5" height="46" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="110" y="0" width="5" height="17" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="120" y="0" width="5" height="24" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="130" y="0" width="5" height="31" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="140" y="0" width="5" height="38" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="150" y="0" width="5" height="45" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="160" y="0" width="5" height="16" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="170" y="0" width="5" height="23" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="180" y="0" width="5" height="30" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="190" y="0" width="5" height="37" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="200" y="0" width="5" height="44" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="210" y="0" width="5" height="15" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="220" y="0" width="5" height="22" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="230" y="0" width="5" height="29" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="240" y="0" width="5" height="36" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="250" y="0" width="5" height="43" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="260" y="0" width="5" height="14" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="270" y="0" width="5" height="21" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="280" y="0" width="5" height="28" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="290" y="0" width="5" height="35" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="300" y="0" width="5" height="42" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="310" y="0" width="5" height="13" rx="1" fill="#D7FF00"/>
+ <rect class="bar" style="animation-delay:0s" x="0" y="0" width="5" height="12" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.09s" x="10" y="0" width="5" height="19" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.18s" x="20" y="0" width="5" height="26" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.27s" x="30" y="0" width="5" height="33" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.36s" x="40" y="0" width="5" height="40" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="50" y="0" width="5" height="47" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.54s" x="60" y="0" width="5" height="18" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.63s" x="70" y="0" width="5" height="25" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0s" x="80" y="0" width="5" height="32" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.09s" x="90" y="0" width="5" height="39" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.18s" x="100" y="0" width="5" height="46" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.27s" x="110" y="0" width="5" height="17" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.36s" x="120" y="0" width="5" height="24" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="130" y="0" width="5" height="31" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.54s" x="140" y="0" width="5" height="38" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.63s" x="150" y="0" width="5" height="45" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0s" x="160" y="0" width="5" height="16" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.09s" x="170" y="0" width="5" height="23" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.18s" x="180" y="0" width="5" height="30" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.27s" x="190" y="0" width="5" height="37" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.36s" x="200" y="0" width="5" height="44" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="210" y="0" width="5" height="15" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.54s" x="220" y="0" width="5" height="22" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.63s" x="230" y="0" width="5" height="29" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0s" x="240" y="0" width="5" height="36" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.09s" x="250" y="0" width="5" height="43" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.18s" x="260" y="0" width="5" height="14" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.27s" x="270" y="0" width="5" height="21" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.36s" x="280" y="0" width="5" height="28" rx="1" fill="#790018"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="290" y="0" width="5" height="35" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.54s" x="300" y="0" width="5" height="42" rx="1" fill="#858B93"/><rect class="bar" style="animation-delay:0.63s" x="310" y="0" width="5" height="13" rx="1" fill="#858B93"/>
 </g>
-<g class="scan"><rect x="0" y="0" width="1200" height="3" fill="#D7FF00" opacity=".35"/></g>
+<g class="scan"><rect x="0" y="0" width="1200" height="3" fill="#858B93" opacity=".35"/></g>
 <rect width="1200" height="390" filter="url(#rough)" opacity=".16"/>
-<g class="pulse" fill="#D7FF00"><circle cx="65" cy="92" r="4"/><circle cx="1135" cy="92" r="4"/><circle cx="65" cy="300" r="4"/><circle cx="1135" cy="300" r="4"/></g>
+<g class="pulse" fill="#858B93"><circle cx="65" cy="92" r="4"/><circle cx="1135" cy="92" r="4"/><circle cx="65" cy="300" r="4"/><circle cx="1135" cy="300" r="4"/></g>
 </svg>
