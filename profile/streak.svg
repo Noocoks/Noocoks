@@ -19,7 +19,7 @@
 <ellipse cx="340" cy="168" rx="185" ry="72" fill="url(#core)"/>
 <g transform="translate(130 177)">
  <rect x="-95" y="-48" width="190" height="92" rx="7" fill="#111216" stroke="#555B63" stroke-opacity=".65"/>
- <text x="0" y="-21" text-anchor="middle" class="label">TOTAL CONTRIBUTIONS</text><text x="0" y="20" text-anchor="middle" class="value" >TOTAL_CONTRIBUTIONS</text><text x="0" y="36" text-anchor="middle" class="small">TOTAL_PERIOD</text>
+ <text x="0" y="-21" text-anchor="middle" class="label">TOTAL CONTRIBUTIONS</text><text x="0" y="20" text-anchor="middle" class="value" >34</text><text x="0" y="36" text-anchor="middle" class="small">MAY 31 — PRESENT</text>
 </g>
 <g transform="translate(340 168)">
  <circle r="65" fill="none" stroke="#35383E" stroke-width="1.5" stroke-dasharray="3 6"/>
@@ -30,7 +30,7 @@
 </g>
 <g transform="translate(550 177)">
  <rect x="-95" y="-48" width="190" height="92" rx="7" fill="#111216" stroke="#555B63" stroke-opacity=".65"/>
- <text x="0" y="-21" text-anchor="middle" class="label">CURRENT STREAK</text><text x="0" y="20" text-anchor="middle" class="value">CURRENT_STREAK<tspan font-size="15" fill="#858B93"> DAY</tspan></text><text x="0" y="36" text-anchor="middle" class="small">LONGEST // LONGEST_STREAK DAYS</text>
+ <text x="0" y="-21" text-anchor="middle" class="label">CURRENT STREAK</text><text x="0" y="20" text-anchor="middle" class="value">1<tspan font-size="15" fill="#858B93"> DAY</tspan></text><text x="0" y="36" text-anchor="middle" class="small">LONGEST // 3 DAYS</text>
 </g>
 <text x="650" y="245" text-anchor="end" font-size="8" letter-spacing="2" fill="#555B63">CRIMSON / STEEL // KEEP THE SIGNAL ALIVE</text>
 </svg>
