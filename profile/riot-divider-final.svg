@@ -15,8 +15,8 @@
     <feGaussianBlur stdDeviation="3"/>
   </filter>
   <style>
-    .sweep { animation: sweep 3.6s linear infinite; }
-    @keyframes sweep { from { transform: translateX(-240px); } to { transform: translateX(1440px); } }
+    .sweep { animation: sweep 3s linear infinite; }
+    @keyframes sweep { from { transform: translateX(-1200px); } to { transform: translateX(1200px); } }
   </style>
 </defs>
 <rect width="1200" height="72" fill="#080808"/>
@@ -25,7 +25,7 @@
 <path d="M0 17H1200M0 59H1200" stroke="#858B93" stroke-opacity=".12" stroke-dasharray="5 17"/>
 <path d="M0 35H1200" stroke="url(#divider-gradient)" stroke-width="8" opacity=".2" filter="url(#soft-glow)"/>
 <g class="sweep">
-  <path d="M0 35H180" stroke="url(#pulse-gradient)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M0 35H220" stroke="url(#pulse-gradient)" stroke-width="5" stroke-linecap="round" filter="url(#soft-glow)"/>
 </g>
 <g fill="#790018"><path d="M24 27l9 9-9 9-9-9z"/></g>
 <g fill="#858B93"><path d="M1176 27l9 9-9 9-9-9z"/></g>
