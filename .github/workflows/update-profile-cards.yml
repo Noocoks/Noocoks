@@ -49,7 +49,7 @@ jobs:
       - name: Generate profile trophies
         uses: soulteary/github-profile-trophy-action@v1
         with:
-          options: username=${{ github.repository_owner }}&theme=darkhub&no-frame=true&no-bg=true&column=8&margin-w=5
+          options: username=${{ github.repository_owner }}&theme=darkhub&no-frame=true&no-bg=true&column=9&margin-w=2
           path: profile/trophy.svg
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
