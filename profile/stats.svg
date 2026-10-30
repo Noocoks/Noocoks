@@ -12,7 +12,7 @@
  .micro{font-size:9px;letter-spacing:2px;fill:#858B93}.label{font-size:10px;letter-spacing:1.5px;fill:#A6ABB2}.value{font-size:27px;font-weight:800;fill:#E4E6E9}.tiny{font-size:8px;letter-spacing:1.5px;fill:#666D75}
  .metric{opacity:0;animation:rise .65s ease-out forwards}.m1{animation-delay:.12s}.m2{animation-delay:.22s}.m3{animation-delay:.32s}.m4{animation-delay:.42s}
  .scan{animation:scan 6s linear infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
- @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes scan{from{transform:translateX(-120px)}to{transform:translateX(800px)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes rise{from{opacity:0}to{opacity:1}}@keyframes scan{from{transform:translateX(-120px)}to{transform:translateX(800px)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
  </style>
 </defs>
 <defs><clipPath id="panelClip"><rect x="1" y="1" width="678" height="308" rx="12"/></clipPath></defs><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#grid)" clip-path="url(#panelClip)"/><rect x="1" y="1" width="678" height="4" rx="2" fill="url(#edge)"/><path d="M20 18V292" stroke="#790018" stroke-width="3"/>
