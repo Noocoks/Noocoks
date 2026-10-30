@@ -2,7 +2,7 @@
 
 <!-- Typing animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Development;Learning%2C+Building+%26+Exploring;Always+Curious.+Always+Improving." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Development;Learning%2C+Building+%26+Exploring;Always+Curious.+Always+Improving." alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -28,7 +28,7 @@
         <img src="https://github-readme-stats.vercel.app/api?username=Noocoks&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF3333&icon_color=FF3333&text_color=FFFFFF&include_all_commits=true" width="100%" alt="GitHub Stats"/>
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Noocoks&theme=dark&hide_border=true&background=0D1117&ring=FF3333&fire=FF3333&currStreakLabel=FF3333" width="100%" alt="GitHub Streak"/>
+        <img src="https://streak-stats.demolab.com/?user=Noocoks&theme=dark&hide_border=true&background=0D1117&ring=FF3333&fire=FF3333&currStreakLabel=FF3333" width="100%" alt="GitHub Streak"/>
       </td>
     </tr>
   </table>
