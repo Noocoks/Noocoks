@@ -20,7 +20,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_border=true&bg_color=080808&title_color=790018&icon_color=790018&text_color=D8DADD
-          path: profile/stats.svg
+          path: profile/stats-upstream.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages
@@ -35,7 +35,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=${{ github.repository_owner }}&theme=dark&background=080808&ring=790018&fire=790018&currStreakLabel=790018&disable_animations=true
-          path: profile/streak.svg
+          path: profile/streak-upstream.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate profile trophies
@@ -71,6 +71,11 @@ jobs:
                       text = text.replace(old, new)
                   path.write_text(text, encoding="utf-8")
           PY
+
+      - name: Build custom GitHub dashboards
+        run: |
+          python profile/generate-stats.py
+          python profile/generate-streak.py
 
       - name: Build custom Language Matrix
         run: python profile/generate-top-langs.py
