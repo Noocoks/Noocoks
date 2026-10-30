@@ -72,7 +72,7 @@ jobs:
                   path.write_text(text, encoding="utf-8")
           PY
 
-      - name: Commit generated cards
+      - name: Build custom Language Matrix\n        run: python profile/generate-top-langs.py\n\n      - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
