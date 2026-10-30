@@ -1,4 +1,6 @@
-# Noocoks
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Noocoks" alt="Noocoks animated title" />
+</div>
 
 <!-- Typing animation -->
 <div align="center">
@@ -16,7 +18,7 @@
 
 <!-- GitHub Trophies -->
 <div align="center">
-  <img src="./profile/trophy.svg" width="90%" alt="GitHub Trophies"/>
+  <img src="./profile/trophy.svg" width="75%" alt="GitHub Trophies"/>
 </div>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Statistics
