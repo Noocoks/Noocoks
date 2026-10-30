@@ -51,7 +51,7 @@ jobs:
         with:
           options: username=${{ github.repository_owner }}&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10
           path: profile/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
       - name: Commit generated cards
         run: |
