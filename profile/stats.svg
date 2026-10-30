@@ -1,239 +1,40 @@
-
-      <svg
-        width="467"
-        height="195"
-        viewBox="0 0 467 195"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId">Nooko&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 23, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #790018;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #D8DADD;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D8DADD;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-percentile-header {
-      font-size: 14px;
-    }
-    .rank-percentile-text {
-      font-size: 16px;
-    }
-    
-    .not_bold { font-weight: 400 }
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #790018;
-      display: block;
-    }
-
-    .rank-circle-rim {
-      stroke: #790018;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #790018;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 250.6649141513441;
-      }
-    }
-  
-  
-          
-
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
-
-        
-        <defs>
-          
-          
-        </defs>
-        
-
-        <rect
-          data-testid="card-bg"
-          class="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#A6ABB2"
-          width="466"
-          fill="#080808"
-          stroke-opacity="0"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Nooko&#39;s GitHub Stats</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <g data-testid="rank-circle"
-          transform="translate(390.5, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-          
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C
-        </text>
-      
-        </g>
-      </g>
-    <svg x="0" y="0">
-      <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="stars"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="commits"
-      >23</text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="prs"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 75)">
-    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="issues"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="contribs"
-      >0</text>
-    </g>
-  </g>
-    </svg>
-  
-        </g>
-      </svg>
-    
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewBox="0 0 680 310" role="img" aria-labelledby="title desc">
+<title id="title">NOOCOKS // GitHub Core Stats</title><desc id="desc">GitHub profile statistics: 23 commits, 0 stars, 0 pull requests, 0 issues, 0 repositories contributed to last year. Rank C.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121317"/><stop offset=".55" stop-color="#080809"/><stop offset="1" stop-color="#19070D"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#790018"/><stop offset=".52" stop-color="#3B252C"/><stop offset="1" stop-color="#858B93"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A21D3B"/><stop offset="1" stop-color="#4D0011"/></linearGradient>
+ <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#858B93" stroke-opacity=".07"/></pattern>
+ <radialGradient id="glow"><stop stop-color="#790018" stop-opacity=".25"/><stop offset="1" stop-color="#790018" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+ <style>
+ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+ .micro{font-size:9px;letter-spacing:2px;fill:#858B93}.label{font-size:10px;letter-spacing:1.5px;fill:#A6ABB2}.value{font-size:27px;font-weight:800;fill:#E4E6E9}.tiny{font-size:8px;letter-spacing:1.5px;fill:#666D75}
+ .metric{opacity:0;animation:rise .65s ease-out forwards}.m1{animation-delay:.12s}.m2{animation-delay:.22s}.m3{animation-delay:.32s}.m4{animation-delay:.42s}
+ .scan{animation:scan 6s linear infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
+ @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes scan{from{transform:translateX(-120px)}to{transform:translateX(800px)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+ </style>
+</defs>
+<rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#grid)"/><rect x="1" y="1" width="678" height="4" rx="2" fill="url(#edge)"/><path d="M20 18V292" stroke="#790018" stroke-width="3"/>
+<ellipse cx="560" cy="105" rx="175" ry="125" fill="url(#glow)" filter="url(#blur)"/>
+<text x="30" y="28" class="micro">NOOCOKS // GITHUB TELEMETRY</text>
+<g transform="translate(557 15)"><rect width="94" height="23" rx="4" fill="#790018" fill-opacity=".18" stroke="#790018"/><circle cx="12" cy="11.5" r="3.5" fill="#A21D3B" class="pulse"/><text x="23" y="15" fill="#D8DADD" font-size="9" letter-spacing="1">RANK / C</text></g>
+<text x="30" y="75" fill="#E4E6E9" font-size="30" font-weight="900" letter-spacing="1">GITHUB</text><text x="30" y="105" fill="#790018" font-size="30" font-weight="900" letter-spacing="1">CORE_STATS_</text>
+<text x="32" y="132" class="micro">ACTIVITY // REPOSITORY IMPACT // CONTRIBUTIONS</text>
+<path d="M30 145H650" stroke="#858B93" stroke-opacity=".25"/>
+<g transform="translate(30 162)">
+ <rect width="298" height="112" rx="7" fill="#790018" fill-opacity=".12" stroke="#790018" stroke-opacity=".75"/>
+ <rect x="0" y="0" width="4" height="112" rx="2" fill="url(#red)"/>
+ <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">TOTAL_COMMITS</text>
+ <text x="19" y="94" class="tiny">CODE / PUSH / HISTORY</text>
+ <path d="M205 20V92" stroke="#858B93" stroke-opacity=".22"/>
+ <path d="M222 83L239 66L253 73L272 42" fill="none" stroke="#A21D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M222 83L239 66L253 73L272 42V91H222Z" fill="#790018" fill-opacity=".18"/>
+ <circle cx="272" cy="42" r="3.5" fill="#A21D3B"/>
+</g>
+<g class="metric m1" transform="translate(348 162)"><rect width="142" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">STARS</text><text x="13" y="43" class="value">0</text><path d="M113 14l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z" fill="#790018" opacity=".8"/></g>
+<g class="metric m2" transform="translate(506 162)"><rect width="144" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">PULL REQUESTS</text><text x="13" y="43" class="value">0</text><path d="M119 15v19m0-19l-6 6m6-6l6 6m-6 13l-6-6m6 6l6-6" stroke="#858B93" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<g class="metric m3" transform="translate(348 222)"><rect width="142" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">ISSUES</text><text x="13" y="43" class="value">0</text><circle cx="120" cy="28" r="9" fill="none" stroke="#858B93" stroke-width="2"/><path d="M120 22v7m0 4v1" stroke="#858B93" stroke-width="2" stroke-linecap="round"/></g>
+<g class="metric m4" transform="translate(506 222)"><rect width="144" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">CONTRIBUTED</text><text x="13" y="43" class="value">0</text><path d="M112 34l7-7 7 7m-7-7v16" fill="none" stroke="#A21D3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="650" y="296" text-anchor="end" class="tiny">CRIMSON / STEEL // PROFILE NODE 001</text>
+</svg>
