@@ -151,6 +151,10 @@ me.say_hello()
   <img src="https://img.shields.io/badge/GitHub-Noocoks-0D1117?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
+<a href="mailto:nicoletobondia06@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+</a>
+
 </div>
 
 ---
