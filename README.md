@@ -29,7 +29,7 @@
   <table>
     <tr>
       <td width="50%">
-        <img src="./profile/stats.svg?v=3" width="100%" alt="GitHub Stats"/>
+        <img src="./profile/stats.svg?v=4" width="100%" alt="GitHub Stats"/>
       </td>
       <td width="50%">
         <img src="./profile/streak.svg" width="100%" alt="GitHub Streak"/>
