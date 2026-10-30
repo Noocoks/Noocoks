@@ -133,7 +133,7 @@ me.say_hello()
 
 <div align="center">
   <a href="https://github.com/Noocoks/Libreta">
-    <img src="./profile/pin-Libreta.svg" alt="Libreta Repository"/>
+    <img src="./profile/pin-Libreta-v2.svg" alt="Libreta Repository"/>
   </a>
 </div>
 
