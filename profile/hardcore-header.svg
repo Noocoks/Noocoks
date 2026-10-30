@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <pattern id="stripes" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="28" fill="#D7FF00"/>
+      <rect x="14" width="14" height="28" fill="#111111"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="260" rx="8" fill="#080808"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#D7FF00"/>
+  <rect x="0" y="252" width="1200" height="8" fill="#FF3333"/>
+  <path d="M0 34H1200M0 226H1200" stroke="#343434" stroke-width="2"/>
+  <rect x="42" y="58" width="12" height="144" fill="url(#stripes)"/>
+  <rect x="1146" y="58" width="12" height="144" fill="url(#stripes)"/>
+  <text x="600" y="112" text-anchor="middle" fill="#D7FF00" font-family="monospace" font-size="22" font-weight="bold" letter-spacing="9">[ UNDERGROUND DIGITAL DIVISION ]</text>
+  <text x="600" y="174" text-anchor="middle" fill="#F5F5F5" font-family="monospace" font-size="54" font-weight="900" letter-spacing="5" filter="url(#glow)">NOOCOKS</text>
+  <text x="600" y="207" text-anchor="middle" fill="#FF3333" font-family="monospace" font-size="18" font-weight="bold" letter-spacing="6">CYBERSECURITY // CODE // CHAOS</text>
+  <text x="78" y="242" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">EST. IN THE TERMINAL</text>
+  <text x="1122" y="242" text-anchor="end" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">NO RULES / JUST LABS</text>
+</svg>
