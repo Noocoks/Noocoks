@@ -18,7 +18,7 @@
 <rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#grid)"/><rect x="1" y="1" width="678" height="4" rx="2" fill="url(#edge)"/><path d="M20 18V292" stroke="#790018" stroke-width="3"/>
 <ellipse cx="560" cy="105" rx="175" ry="125" fill="url(#glow)" filter="url(#blur)"/>
 <text x="30" y="28" class="micro">NOOCOKS // GITHUB TELEMETRY</text>
-<g transform="translate(557 15)"><rect width="94" height="23" rx="4" fill="#790018" fill-opacity=".18" stroke="#790018"/><circle cx="12" cy="11.5" r="3.5" fill="#A21D3B" class="pulse"/><text x="23" y="15" fill="#D8DADD" font-size="9" letter-spacing="1">RANK / C</text></g>
+<g transform="translate(557 15)"><rect width="94" height="23" rx="4" fill="#790018" fill-opacity=".18" stroke="#790018"/><circle cx="12" cy="11.5" r="3.5" fill="#A21D3B" class="pulse"/><text x="23" y="15" fill="#D8DADD" font-size="9" letter-spacing="1">RANK / RANK_LETTER</text></g>
 <text x="30" y="75" fill="#E4E6E9" font-size="30" font-weight="900" letter-spacing="1">GITHUB</text><text x="30" y="105" fill="#790018" font-size="30" font-weight="900" letter-spacing="1">CORE_STATS_</text>
 <text x="32" y="132" class="micro">ACTIVITY // REPOSITORY IMPACT // CONTRIBUTIONS</text>
 <path d="M30 145H650" stroke="#858B93" stroke-opacity=".25"/>
