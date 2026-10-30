@@ -18,7 +18,7 @@
 
 <!-- GitHub Trophies -->
 <div align="center">
-  <img src="./profile/trophy.svg" width="75%" alt="GitHub Trophies"/>
+  <img src="./profile/trophy.svg" width="95%" alt="GitHub Trophies"/>
 </div>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Statistics
