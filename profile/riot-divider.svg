@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72">
 <defs>
- <linearGradient id="line" x1="0" x2="1"><stop stop-color="#D7FF00" stop-opacity="0"/><stop offset=".18" stop-color="#D7FF00"/><stop offset=".5" stop-color="#FF3333"/><stop offset=".82" stop-color="#D7FF00"/><stop offset="1" stop-color="#D7FF00" stop-opacity="0"/></linearGradient>
+ <linearGradient id="line" x1="0" x2="1"><stop stop-color="#858B93" stop-opacity="0"/><stop offset=".18" stop-color="#858B93"/><stop offset=".5" stop-color="#790018"/><stop offset=".82" stop-color="#858B93"/><stop offset="1" stop-color="#858B93" stop-opacity="0"/></linearGradient>
  <style>.sweep{animation:sweep 3s linear infinite}@keyframes sweep{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}</style>
 </defs>
 <rect width="1200" height="72" fill="#080808"/>
 <path d="M0 35H1200" stroke="url(#line)" stroke-width="2"/>
-<path d="M0 43H1200" stroke="#333" stroke-width="1"/>
-<path d="M0 18H1200M0 58H1200" stroke="#D7FF00" stroke-opacity=".14" stroke-dasharray="8 18"/>
-<g class="sweep"><path d="M0 35H220" stroke="#F5FF9A" stroke-width="5" filter="url(#line)"/></g>
-<g fill="#D7FF00"><path d="M24 28l8 8-8 8-8-8z"/><path d="M1176 28l8 8-8 8-8-8z"/></g>
-<text x="600" y="26" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="8" fill="#FF3333">/// TRANSMISSION ///</text>
+<path d="M0 43H1200" stroke="#3A3D42" stroke-width="1"/>
+<path d="M0 18H1200M0 58H1200" stroke="#858B93" stroke-opacity=".14" stroke-dasharray="8 18"/>
+<g class="sweep"><path d="M0 35H220" stroke="#C0C4C9" stroke-width="5" filter="url(#line)"/></g>
+<g fill="#858B93"><path d="M24 28l8 8-8 8-8-8z"/><path d="M1176 28l8 8-8 8-8-8z"/></g>
+<text x="600" y="26" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="8" fill="#790018">/// TRANSMISSION ///</text>
 </svg>
