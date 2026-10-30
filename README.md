@@ -167,7 +167,7 @@ me.say_hello()
 
 **Learning is a continuous process.**
 
-*Construyendo, experimentando y aprendiendo un día a la vez.*
+*Construyendo, experimentando, aprendiendo y siempre mejorando.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:8B0000,100:FF3333&height=100&section=footer" width="100%" alt="Footer"/>
 
