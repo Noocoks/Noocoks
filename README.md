@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 <!-- GitHub Trophies -->
@@ -41,7 +41,7 @@
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 02 — TECH ARSENAL</code>
@@ -65,7 +65,7 @@
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 03 — SECURITY LAB</code>
@@ -82,7 +82,7 @@ I'm particularly interested in understanding how systems work, identifying vulne
 <sub>All security-related experiments are conducted in authorized environments and controlled labs.</sub>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 04 — OPERATOR PROFILE</code>
@@ -126,7 +126,7 @@ me.say_hello()
 - 📝 Documenting what I learn along the way.
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 05 — FIELD PROJECTS</code>
@@ -140,7 +140,7 @@ me.say_hello()
 **More projects coming soon...**
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 06 — SETUP</code>
@@ -156,7 +156,7 @@ me.say_hello()
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 07 — TRANSMISSION</code>
@@ -174,7 +174,7 @@ me.say_hello()
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-crimson.svg" width="100%" alt="Animated industrial divider"/>
+  <img src="./profile/riot-divider-final.svg" width="100%" alt="Animated industrial divider"/>
 </div>
 
 <div align="center">
