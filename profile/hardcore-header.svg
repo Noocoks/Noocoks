@@ -1,23 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
-  <defs>
-    <pattern id="stripes" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <rect width="14" height="28" fill="#D7FF00"/>
-      <rect x="14" width="14" height="28" fill="#111111"/>
-    </pattern>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="1200" height="260" rx="8" fill="#080808"/>
-  <rect x="0" y="0" width="1200" height="8" fill="#D7FF00"/>
-  <rect x="0" y="252" width="1200" height="8" fill="#FF3333"/>
-  <path d="M0 34H1200M0 226H1200" stroke="#343434" stroke-width="2"/>
-  <rect x="42" y="58" width="12" height="144" fill="url(#stripes)"/>
-  <rect x="1146" y="58" width="12" height="144" fill="url(#stripes)"/>
-  <text x="600" y="112" text-anchor="middle" fill="#D7FF00" font-family="monospace" font-size="22" font-weight="bold" letter-spacing="9">[ UNDERGROUND DIGITAL DIVISION ]</text>
-  <text x="600" y="174" text-anchor="middle" fill="#F5F5F5" font-family="monospace" font-size="54" font-weight="900" letter-spacing="5" filter="url(#glow)">NOOCOKS</text>
-  <text x="600" y="207" text-anchor="middle" fill="#FF3333" font-family="monospace" font-size="18" font-weight="bold" letter-spacing="6">CYBERSECURITY // CODE // CHAOS</text>
-  <text x="78" y="242" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">EST. IN THE TERMINAL</text>
-  <text x="1122" y="242" text-anchor="end" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">NO RULES / JUST LABS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".52" stop-color="#101010"/><stop offset="1" stop-color="#210006"/></linearGradient>
+  <linearGradient id="acid" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D7FF00"/><stop offset=".5" stop-color="#F4FF7A"/><stop offset="1" stop-color="#D7FF00"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#D7FF00" stroke-opacity=".11" stroke-width="1"/></pattern>
+  <pattern id="hazard" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="13" height="26" fill="#D7FF00"/><rect x="13" width="13" height="26" fill="#111"/></pattern>
+  <filter id="limeGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="8"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .08 0"/></filter>
+  <style>
+    .flicker{animation:flicker 3.8s infinite}
+    .scan{animation:scan 5s linear infinite}
+    .pulse{animation:pulse 1.6s ease-in-out infinite}
+    .glitch{animation:glitch 4.5s steps(1) infinite}
+    .bar{transform-box:fill-box;transform-origin:bottom;animation:eq .75s ease-in-out infinite alternate}
+    @keyframes flicker{0%,18%,20%,52%,54%,100%{opacity:1}19%,53%{opacity:.35}}
+    @keyframes scan{from{transform:translateY(-400px)}to{transform:translateY(400px)}}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes glitch{0%,91%,94%,100%{transform:translate(0)}92%{transform:translate(5px,-2px)}93%{transform:translate(-4px,1px)}}
+    @keyframes eq{from{transform:scaleY(.18)}to{transform:scaleY(1)}}
+  </style>
+</defs>
+<rect width="1200" height="390" fill="url(#bg)"/>
+<rect width="1200" height="390" fill="url(#grid)"/>
+<path d="M0 18H1200M0 372H1200" stroke="#D7FF00" stroke-width="3" filter="url(#limeGlow)"/>
+<path d="M0 28H1200M0 362H1200" stroke="#FF3333" stroke-opacity=".8" stroke-width="1"/>
+<path d="M0 70L160 70 205 25 995 25 1040 70H1200M0 320H1200L1040 365H160Z" fill="none" stroke="#D7FF00" stroke-opacity=".4" stroke-width="2"/>
+<rect x="22" y="42" width="18" height="306" fill="url(#hazard)"/>
+<rect x="1160" y="42" width="18" height="306" fill="url(#hazard)"/>
+<g fill="#D7FF00" font-family="monospace" font-weight="bold" letter-spacing="4">
+ <text x="78" y="65" font-size="15">NOOCOKS // UNDERGROUND DIVISION</text>
+ <text x="1120" y="65" text-anchor="end" font-size="15">SIGNAL: UNSTABLE</text>
+</g>
+<g opacity=".8" stroke="#FF3333" stroke-width="2" fill="none">
+ <path d="M80 95H300L330 125H870L900 95H1120"/>
+ <path d="M80 295H260L290 265H910L940 295H1120"/>
+</g>
+<g class="glitch" text-anchor="middle" font-family="monospace" font-weight="900" letter-spacing="7">
+ <text x="604" y="211" font-size="104" fill="#FF3333" opacity=".8" filter="url(#redGlow)">NOOCOKS</text>
+ <text x="596" y="205" font-size="104" fill="#D7FF00" filter="url(#limeGlow)">NOOCOKS</text>
+ <text x="600" y="205" font-size="104" fill="#F8F8F8" opacity=".94">NOOCOKS</text>
+</g>
+<g class="flicker" fill="#D7FF00" font-family="monospace" font-weight="bold" text-anchor="middle" letter-spacing="7">
+ <text x="600" y="245" font-size="19">CYBERSECURITY // CODE // CHAOS</text>
+</g>
+<g fill="#FF3333" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="3">
+ <text x="82" y="340">[ SYSTEM OVERRIDE ]</text>
+ <text x="1118" y="340" text-anchor="end">[ NO LIMITER ]</text>
+</g>
+<g transform="translate(440 280)" class="pulse">
+ <rect class="bar" style="animation-delay:0s" x="0" y="0" width="5" height="12" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="10" y="0" width="5" height="19" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="20" y="0" width="5" height="26" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="30" y="0" width="5" height="33" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="40" y="0" width="5" height="40" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="50" y="0" width="5" height="47" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="60" y="0" width="5" height="18" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="70" y="0" width="5" height="25" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="80" y="0" width="5" height="32" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="90" y="0" width="5" height="39" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="100" y="0" width="5" height="46" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="110" y="0" width="5" height="17" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="120" y="0" width="5" height="24" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="130" y="0" width="5" height="31" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="140" y="0" width="5" height="38" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="150" y="0" width="5" height="45" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="160" y="0" width="5" height="16" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="170" y="0" width="5" height="23" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="180" y="0" width="5" height="30" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="190" y="0" width="5" height="37" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="200" y="0" width="5" height="44" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="210" y="0" width="5" height="15" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="220" y="0" width="5" height="22" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="230" y="0" width="5" height="29" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0s" x="240" y="0" width="5" height="36" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.09s" x="250" y="0" width="5" height="43" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.18s" x="260" y="0" width="5" height="14" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.27s" x="270" y="0" width="5" height="21" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.36s" x="280" y="0" width="5" height="28" rx="1" fill="#FF3333"/><rect class="bar" style="animation-delay:0.44999999999999996s" x="290" y="0" width="5" height="35" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.54s" x="300" y="0" width="5" height="42" rx="1" fill="#D7FF00"/><rect class="bar" style="animation-delay:0.63s" x="310" y="0" width="5" height="13" rx="1" fill="#D7FF00"/>
+</g>
+<g class="scan"><rect x="0" y="0" width="1200" height="3" fill="#D7FF00" opacity=".35"/></g>
+<rect width="1200" height="390" filter="url(#rough)" opacity=".16"/>
+<g class="pulse" fill="#D7FF00"><circle cx="65" cy="92" r="4"/><circle cx="1135" cy="92" r="4"/><circle cx="65" cy="300" r="4"/><circle cx="1135" cy="300" r="4"/></g>
 </svg>
