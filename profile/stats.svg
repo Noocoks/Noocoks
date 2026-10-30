@@ -25,7 +25,7 @@
 <g transform="translate(30 162)">
  <rect width="298" height="112" rx="7" fill="#790018" fill-opacity=".12" stroke="#790018" stroke-opacity=".75"/>
  <rect x="0" y="0" width="4" height="112" rx="2" fill="url(#red)"/>
- <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">TOTAL_COMMITS</text>
+ <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">23</text>
  <text x="19" y="94" class="tiny">CODE / PUSH / HISTORY</text>
  <path d="M205 20V92" stroke="#858B93" stroke-opacity=".22"/>
  <path d="M222 83L239 66L253 73L272 42" fill="none" stroke="#A21D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
