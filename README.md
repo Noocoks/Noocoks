@@ -3,18 +3,20 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=30&duration=2600&pause=900&color=D7FF00&center=true&vCenter=true&width=700&lines=Noocoks" alt="Noocoks animated title" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=34&duration=1800&pause=600&color=D7FF00&center=true&vCenter=true&width=800&lines=NOOCOKS;SYSTEM+OVERDRIVE;WELCOME+TO+THE+CHAOS" alt="Noocoks animated title" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=20&duration=2600&pause=900&color=FF3333&center=true&vCenter=true&width=760&lines=CYBERSECURITY+%2F%2F+DEVELOPMENT;LEARN+FAST.+BUILD+HARD.;THINK+DIFFERENT.+STAY+CURIOUS." alt="Animated profile tagline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=21&duration=1900&pause=500&color=FF3333&center=true&vCenter=true&width=900&lines=CYBERSECURITY+%2F%2F+CODE+%2F%2F+CHAOS;NO+SLEEP.+JUST+BUILD.;BREAK+THE+PATTERN.+NOT+THE+LAW.;UNDERGROUND+MINDSET.+OPEN+SOURCE+SOUL." alt="Animated profile tagline" />
 </div>
 
 <div align="center">
-  <sub><code>[ SYSTEM ONLINE ]</code> Exploring technology, building projects and testing ideas in controlled labs. <code>[ NO SIGNAL LOST ]</code></sub>
+  <sub><code>[ SYSTEM ONLINE ]</code> HIGH VOLTAGE IDEAS · RAW CODE · CONTROLLED CHAOS · <code>[ NO SIGNAL LOST ]</code></sub>
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 <!-- GitHub Trophies -->
 <div align="center">
@@ -38,7 +40,9 @@
   <img src="./profile/top-langs.svg" width="45%" alt="Top Languages"/>
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 02 — TECH ARSENAL</code>
 
@@ -60,7 +64,9 @@
   <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark" alt="Currently Exploring"/>
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 03 — SECURITY LAB</code>
 
@@ -75,7 +81,9 @@ I'm particularly interested in understanding how systems work, identifying vulne
 
 <sub>All security-related experiments are conducted in authorized environments and controlled labs.</sub>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 04 — OPERATOR PROFILE</code>
 
@@ -117,7 +125,9 @@ me.say_hello()
 - ⚙️ Learning better software architecture and development practices.
 - 📝 Documenting what I learn along the way.
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 05 — FIELD PROJECTS</code>
 
@@ -129,7 +139,9 @@ me.say_hello()
 
 **More projects coming soon...**
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 06 — SETUP</code>
 
@@ -143,7 +155,9 @@ me.say_hello()
 
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 ## <code>// 07 — TRANSMISSION</code>
 
@@ -159,7 +173,9 @@ me.say_hello()
 
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider.svg" width="100%" alt="Animated industrial divider"/>
+</div>
 
 <div align="center">
 
