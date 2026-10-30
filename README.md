@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Noocoks" alt="Noocoks animated title" />
-</div>
-
-<!-- Typing animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Development;Learning%2C+Building+%26+Exploring;Always+Curious.+Always+Improving." alt="Typing SVG" />
+  <img src="./profile/hardcore-header.svg" width="100%" alt="Noocoks — underground digital division"/>
 </div>
 
 <div align="center">
-  <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="28px" />
-  <strong>Welcome to my GitHub profile</strong>
-  <br>
-  <sub>Exploring technology, breaking things in labs, and building new ones.</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=30&duration=2600&pause=900&color=D7FF00&center=true&vCenter=true&width=700&lines=Noocoks" alt="Noocoks animated title" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=20&duration=2600&pause=900&color=FF3333&center=true&vCenter=true&width=760&lines=CYBERSECURITY+%2F%2F+DEVELOPMENT;LEARN+FAST.+BUILD+HARD.;THINK+DIFFERENT.+STAY+CURIOUS." alt="Animated profile tagline" />
+</div>
+
+<div align="center">
+  <sub><code>[ SYSTEM ONLINE ]</code> Exploring technology, building projects and testing ideas in controlled labs. <code>[ NO SIGNAL LOST ]</code></sub>
 </div>
 
 ---
@@ -21,7 +21,7 @@
   <img src="./profile/trophy.svg?v=7" width="100%" alt="GitHub Trophies"/>
 </div>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Statistics
+## <code>// 01 — GITHUB STATS</code>
 
 <div align="center">
   <table>
@@ -40,21 +40,21 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25"> Tech Stack & Skills
+## <code>// 02 — TECH ARSENAL</code>
 
-**Development**
+**[ CODE / DEVELOPMENT ]**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,github,markdown&theme=dark" alt="Development Skills"/>
 </div>
 
-**Systems & Tools**
+**[ SYSTEMS / TOOLS ]**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,docker,obsidian,vscode&theme=dark" alt="Systems and Tools"/>
 </div>
 
-**Currently exploring**
+**[ CURRENTLY EXPERIMENTING ]**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark" alt="Currently Exploring"/>
@@ -62,7 +62,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="28"> Cybersecurity
+## <code>// 03 — SECURITY LAB</code>
 
 I'm particularly interested in understanding how systems work, identifying vulnerabilities and learning how to secure them.
 
@@ -77,7 +77,7 @@ I'm particularly interested in understanding how systems work, identifying vulne
 
 ---
 
-## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="28"> About Me
+## <code>// 04 — OPERATOR PROFILE</code>
 
 ```python
 class Noocoks:
@@ -109,7 +109,7 @@ me = Noocoks()
 me.say_hello()
 ```
 
-### What I'm currently working on
+### `// CURRENT OPERATIONS`
 
 - 📚 Improving my cybersecurity knowledge through practical labs.
 - 💻 Building and improving personal development projects.
@@ -119,7 +119,7 @@ me.say_hello()
 
 ---
 
-## <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="28"> Featured Projects
+## <code>// 05 — FIELD PROJECTS</code>
 
 <div align="center">
   <a href="https://github.com/Noocoks/Libreta">
@@ -131,7 +131,7 @@ me.say_hello()
 
 ---
 
-## <img src="https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif" width="28"> Development Environment
+## <code>// 06 — SETUP</code>
 
 <div align="center">
 
@@ -145,7 +145,7 @@ me.say_hello()
 
 ---
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Connect With Me
+## <code>// 07 — TRANSMISSION</code>
 
 <div align="center">
 
@@ -163,12 +163,12 @@ me.say_hello()
 
 <div align="center">
 
-### `root@noocoks:~$`
+### `root@noocoks:~$ ./init-chaos.sh`
 
-**Learning is a continuous process.**
+**NO COMFORT ZONE. JUST CONSTANT EVOLUTION.**
 
-*Construyendo, experimentando, aprendiendo y siempre mejorando.*
+*Construyendo. Experimentando. Rompiendo límites (en laboratorio).*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:8B0000,100:FF3333&height=100&section=footer" width="100%" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,50:D7FF00,100:FF3333&height=100&section=footer" width="100%" alt="Footer"/>
 
 </div>
