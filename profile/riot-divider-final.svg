@@ -1,32 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72">
 <defs>
-  <linearGradient id="divider-gradient" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#790018" stop-opacity="0"/>
-    <stop offset=".12" stop-color="#790018"/>
-    <stop offset=".48" stop-color="#641326"/>
-    <stop offset=".88" stop-color="#858B93"/>
-    <stop offset="1" stop-color="#858B93" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="pulse-gradient" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#790018"/>
-    <stop offset="1" stop-color="#858B93"/>
-  </linearGradient>
-  <filter id="soft-glow" x="-30%" y="-100%" width="160%" height="300%">
-    <feGaussianBlur stdDeviation="3"/>
-  </filter>
-  <style>
-    .sweep { animation: sweep 3s linear infinite; }
-    @keyframes sweep { from { transform: translateX(-1200px); } to { transform: translateX(1200px); } }
-  </style>
+ <linearGradient id="line" x1="0" x2="1">
+  <stop stop-color="#790018" stop-opacity="0"/>
+  <stop offset=".18" stop-color="#790018"/>
+  <stop offset=".5" stop-color="#A21D3B"/>
+  <stop offset=".82" stop-color="#858B93"/>
+  <stop offset="1" stop-color="#858B93" stop-opacity="0"/>
+ </linearGradient>
+ <linearGradient id="bar-gradient" x1="0" x2="1">
+  <stop stop-color="#790018" stop-opacity="0"/>
+  <stop offset=".18" stop-color="#790018"/>
+  <stop offset=".52" stop-color="#A21D3B"/>
+  <stop offset=".84" stop-color="#858B93"/>
+  <stop offset="1" stop-color="#D0D3D7" stop-opacity=".25"/>
+ </linearGradient>
+ <filter id="bar-glow" x="-40%" y="-180%" width="180%" height="460%">
+  <feGaussianBlur stdDeviation="3"/>
+ </filter>
+ <style>
+  .sweep{animation:sweep 3s linear infinite}
+  @keyframes sweep{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
+ </style>
 </defs>
 <rect width="1200" height="72" fill="#080808"/>
-<path d="M0 35H1200" stroke="url(#divider-gradient)" stroke-width="3"/>
+<path d="M0 35H1200" stroke="url(#line)" stroke-width="3"/>
 <path d="M0 43H1200" stroke="#3A3D42" stroke-width="1"/>
-<path d="M0 17H1200M0 59H1200" stroke="#858B93" stroke-opacity=".12" stroke-dasharray="5 17"/>
-<path d="M0 35H1200" stroke="url(#divider-gradient)" stroke-width="8" opacity=".2" filter="url(#soft-glow)"/>
+<path d="M0 18H1200M0 58H1200" stroke="#858B93" stroke-opacity=".14" stroke-dasharray="8 18"/>
+<path d="M0 35H1200" stroke="url(#line)" stroke-width="8" opacity=".22" filter="url(#bar-glow)"/>
 <g class="sweep">
-  <path d="M0 35H220" stroke="url(#pulse-gradient)" stroke-width="5" stroke-linecap="round" filter="url(#soft-glow)"/>
+ <path d="M0 35H220" stroke="url(#bar-gradient)" stroke-width="12" stroke-linecap="round" opacity=".5" filter="url(#bar-glow)"/>
+ <path d="M0 35H220" stroke="url(#bar-gradient)" stroke-width="5" stroke-linecap="round"/>
+ <path d="M0 35H220" stroke="#D0D3D7" stroke-width="1" stroke-linecap="round" opacity=".9"/>
 </g>
-<g fill="#790018"><path d="M24 27l9 9-9 9-9-9z"/></g>
-<g fill="#858B93"><path d="M1176 27l9 9-9 9-9-9z"/></g>
+<g fill="#790018"><path d="M24 28l8 8-8 8-8-8z"/></g>
+<g fill="#858B93"><path d="M1176 28l8 8-8 8-8-8z"/></g>
 </svg>
