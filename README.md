@@ -45,23 +45,36 @@
 </div>
 
 ## <code>// 02 — TECH ARSENAL</code>
-
-**[ CODE / DEVELOPMENT ]**
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,github,markdown&theme=dark" alt="Development Skills"/>
+  <sub><code>01 / BUILD · DESIGN · AUTOMATE</code></sub>
 </div>
 
-**[ SYSTEMS / TOOLS ]**
+**[ DEVELOPMENT CORE ]**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,docker,obsidian,vscode&theme=dark" alt="Systems and Tools"/>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,github,markdown&theme=dark&perline=7" alt="HTML, CSS, JavaScript, Python, Git, GitHub and Markdown"/>
 </div>
 
-**[ CURRENTLY EXPERIMENTING ]**
+<div align="center">
+  <sub><code>02 / SYSTEMS · ENVIRONMENTS · WORKFLOW</code></sub>
+</div>
+
+**[ SYSTEMS & TOOLING ]**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark" alt="Currently Exploring"/>
+  <img src="https://skillicons.dev/icons?i=linux,bash,docker,obsidian,vscode&theme=dark&perline=5" alt="Linux, Bash, Docker, Obsidian and Visual Studio Code"/>
+</div>
+
+<div align="center">
+  <sub><code>03 / TEST · BREAK · LEARN</code></sub>
+</div>
+
+**[ CURRENT EXPERIMENTS ]**
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark&perline=2" alt="React and Ollama"/>
+  <br/>
+  <sub>Exploring component-based interfaces and local AI workflows.</sub>
 </div>
 
 <div align="center">
@@ -144,15 +157,29 @@ me.say_hello()
 </div>
 
 ## <code>// 06 — SETUP</code>
+<div align="center">
+  <sub><code>HOST SYSTEM // DAILY ENVIRONMENT</code></sub>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/WINDOWS_11-0D1117?style=for-the-badge&logo=windows11&logoColor=858B93&labelColor=790018" alt="Windows 11"/>
+  <img src="https://img.shields.io/badge/KALI_LINUX-0D1117?style=for-the-badge&logo=kalilinux&logoColor=858B93&labelColor=790018" alt="Kali Linux"/>
+</div>
 
 <div align="center">
+  <sub><code>VIRTUALIZATION // ISOLATED LABS</code></sub>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/VIRTUALBOX-0D1117?style=for-the-badge&logo=virtualbox&logoColor=858B93&labelColor=790018" alt="VirtualBox"/>
+</div>
 
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-0D1117?style=for-the-badge&logo=kalilinux&logoColor=557C94)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![VS Code](https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+<div align="center">
+  <sub><code>WORKBENCH // BUILD & SHIP</code></sub>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/GIT-0D1117?style=for-the-badge&logo=git&logoColor=858B93&labelColor=790018" alt="Git"/>
+  <img src="https://img.shields.io/badge/VISUAL_STUDIO_CODE-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=858B93&labelColor=790018" alt="Visual Studio Code"/>
+  <img src="https://img.shields.io/badge/DOCKER-0D1117?style=for-the-badge&logo=docker&logoColor=858B93&labelColor=790018" alt="Docker"/>
+</div>
 
+<div align="center">
+  <sub><code>ISOLATED LABS · LOCAL EXPERIMENTS · OPEN SOURCE</code></sub>
 </div>
 
 <div align="center">
@@ -160,17 +187,20 @@ me.say_hello()
 </div>
 
 ## <code>// 07 — TRANSMISSION</code>
-
 <div align="center">
-
-<a href="https://github.com/Noocoks">
-  <img src="https://img.shields.io/badge/GitHub-Noocoks-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="mailto:nicoletobondia06@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
-</a>
-
+  <sub><code>SECURE CHANNEL // PICK YOUR ROUTE</code></sub>
+  <br/><br/>
+  <a href="https://github.com/Noocoks">
+    <img src="https://img.shields.io/badge/GITHUB-OPEN_PROFILE-0D1117?style=for-the-badge&logo=github&logoColor=858B93&labelColor=790018" alt="Open GitHub profile"/>
+  </a>
+  &nbsp;
+  <a href="mailto:nicoletobondia06@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-SEND_TRANSMISSION-0D1117?style=for-the-badge&logo=gmail&logoColor=858B93&labelColor=790018" alt="Send an email"/>
+  </a>
+  <br/><br/>
+  <code>nicoletobondia06@gmail.com</code>
+  <br/>
+  <sub>Ideas, collaboration or just a good conversation. Channel open.</sub>
 </div>
 
 <div align="center">
