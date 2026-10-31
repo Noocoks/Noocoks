@@ -15,8 +15,8 @@
  @keyframes rise{from{opacity:0}to{opacity:1}}@keyframes scan{from{transform:translateX(-120px)}to{transform:translateX(800px)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
  </style>
 </defs>
-<defs><clipPath id="panelClip"><rect x="1" y="1" width="678" height="308" rx="12"/></clipPath></defs><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#grid)" clip-path="url(#panelClip)"/><rect x="1" y="1" width="678" height="4" rx="2" fill="url(#edge)"/><path d="M20 18V292" stroke="#790018" stroke-width="3"/>
-<ellipse cx="560" cy="105" rx="175" ry="125" fill="url(#glow)" filter="url(#blur)" clip-path="url(#panelClip)"/>
+<rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/><rect x="1" y="1" width="678" height="308" rx="12" fill="url(#grid)"/><rect x="1" y="1" width="678" height="4" rx="2" fill="url(#edge)"/><path d="M20 18V292" stroke="#790018" stroke-width="3"/>
+<ellipse cx="560" cy="105" rx="175" ry="125" fill="url(#glow)" filter="url(#blur)"/>
 <text x="30" y="28" class="micro">NOOCOKS // GITHUB TELEMETRY</text>
 <g transform="translate(557 15)"><rect width="94" height="23" rx="4" fill="#790018" fill-opacity=".18" stroke="#790018"/><circle cx="12" cy="11.5" r="3.5" fill="#A21D3B" class="pulse"/><text x="23" y="15" fill="#D8DADD" font-size="9" letter-spacing="1">RANK / C</text></g>
 <text x="30" y="75" fill="#E4E6E9" font-size="30" font-weight="900" letter-spacing="1">GITHUB</text><text x="30" y="105" fill="#790018" font-size="30" font-weight="900" letter-spacing="1">CORE_STATS_</text>
@@ -25,7 +25,7 @@
 <g transform="translate(30 162)">
  <rect width="298" height="112" rx="7" fill="#790018" fill-opacity=".12" stroke="#790018" stroke-opacity=".75"/>
  <rect x="0" y="0" width="4" height="112" rx="2" fill="url(#red)"/>
- <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">23</text>
+ <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">177</text>
  <text x="19" y="94" class="tiny">CODE / PUSH / HISTORY</text>
  <path d="M205 20V92" stroke="#858B93" stroke-opacity=".22"/>
  <path d="M222 83L239 66L253 73L272 42" fill="none" stroke="#A21D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
