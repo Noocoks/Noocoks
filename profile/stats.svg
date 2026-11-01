@@ -25,7 +25,7 @@
 <g transform="translate(30 162)">
  <rect width="298" height="112" rx="7" fill="#790018" fill-opacity=".12" stroke="#790018" stroke-opacity=".75"/>
  <rect x="0" y="0" width="4" height="112" rx="2" fill="url(#red)"/>
- <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">177</text>
+ <text x="19" y="24" class="label">TOTAL COMMITS</text><text x="19" y="72" class="value">284</text>
  <text x="19" y="94" class="tiny">CODE / PUSH / HISTORY</text>
  <path d="M205 20V92" stroke="#858B93" stroke-opacity=".22"/>
  <path d="M222 83L239 66L253 73L272 42" fill="none" stroke="#A21D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -33,7 +33,7 @@
  <circle cx="272" cy="42" r="3.5" fill="#A21D3B"/>
 </g>
 <g class="metric m1" transform="translate(348 162)"><rect width="142" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">STARS</text><text x="13" y="43" class="value">0</text><path d="M113 14l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z" fill="#790018" opacity=".8"/></g>
-<g class="metric m2" transform="translate(506 162)"><rect width="144" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">PULL REQUESTS</text><text x="13" y="43" class="value">0</text><path d="M119 15v19m0-19l-6 6m6-6l6 6m-6 13l-6-6m6 6l6-6" stroke="#858B93" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<g class="metric m2" transform="translate(506 162)"><rect width="144" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">PULL REQUESTS</text><text x="13" y="43" class="value">4</text><path d="M119 15v19m0-19l-6 6m6-6l6 6m-6 13l-6-6m6 6l6-6" stroke="#858B93" stroke-width="2" fill="none" stroke-linecap="round"/></g>
 <g class="metric m3" transform="translate(348 222)"><rect width="142" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><text x="13" y="19" class="label">ISSUES</text><text x="13" y="43" class="value">0</text><circle cx="120" cy="28" r="9" fill="none" stroke="#858B93" stroke-width="2"/><path d="M120 22v7m0 4v1" stroke="#858B93" stroke-width="2" stroke-linecap="round"/></g>
 <g class="metric m4" transform="translate(506 222)"><rect width="144" height="52" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/><path d="M17 34l7-7 7 7m-7-7v16" fill="none" stroke="#A21D3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="126" y="19" class="label" text-anchor="end">CONTRIBUTED</text><text x="126" y="43" class="value" text-anchor="end">0</text></g>
 <text x="650" y="296" text-anchor="end" class="tiny">CRIMSON / STEEL // PROFILE NODE 001</text>
