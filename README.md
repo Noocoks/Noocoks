@@ -74,7 +74,7 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark&perline=2" alt="React and Ollama"/>
   <br/>
-  <sub>Exploring component-based interfaces and local AI workflows.</sub>
+  <sub>Exploring component-based interfaces, local AI workflows and modular CSS architecture.</sub>
 </div>
 
 <div align="center">
@@ -91,6 +91,7 @@ I'm particularly interested in understanding how systems work, identifying vulne
 - 🐧 **Linux:** Working with Linux environments and command-line tools.
 - 🧪 **Labs:** Building local environments to experiment, document and learn.
 - 🛡️ **Security:** Understanding vulnerabilities, defensive techniques and mitigation.
+- 📚 **Technical documentation:** Developing Libreta, a personal knowledge base for tools, labs, procedures and development notes.
 
 <sub>All security-related experiments are conducted in authorized environments and controlled labs.</sub>
 
@@ -117,7 +118,8 @@ class Noocoks:
             "Frontend Development",
             "Python",
             "Scalable Software Architecture",
-            "Local AI with Ollama"
+            "Local AI with Ollama",
+            "Libreta: technical documentation & modular web architecture"
         ]
 
         self.mindset = "Learn by building"
@@ -149,6 +151,8 @@ me.say_hello()
     <img src="./profile/pin-Libreta-v3.svg" alt="Libreta Repository"/>
   </a>
 </div>
+
+**Libreta** — una base de conocimiento técnica en evolución continua: documentación de ciberseguridad, Android, IA, desarrollo y laboratorios locales. Construida con HTML, CSS y JavaScript, con estilos modulares y estadísticas de código automatizadas mediante GitHub Actions.
 
 **More projects coming soon...**
 
