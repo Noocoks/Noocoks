@@ -74,7 +74,7 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark&perline=2" alt="React and Ollama"/>
   <br/>
-  <sub>Exploring component-based interfaces, local AI workflows and modular CSS architecture.</sub>
+  <sub>Exploring component-based interfaces and building local AI workflows with modular, maintainable web architecture.</sub>
 </div>
 
 <div align="center">
@@ -119,7 +119,8 @@ class Noocoks:
             "Python",
             "Scalable Software Architecture",
             "Local AI with Ollama",
-            "Libreta: technical documentation & modular web architecture"
+            "Dualvers V2: multi-provider CLI with safer session handling",
+            "Libreta: technical documentation, modular CSS & automated project metrics"
         ]
 
         self.mindset = "Learn by building"
@@ -137,7 +138,8 @@ me.say_hello()
 - 📚 Improving my cybersecurity knowledge through practical labs.
 - 💻 Building and improving personal development projects.
 - 🧠 Exploring local AI models and AI-assisted workflows.
-- ⚙️ Learning better software architecture and development practices.
+- ⚙️ Applying modular CSS architecture and improving maintainability in real projects.
+- 🔐 Developing and documenting safer local tooling, including session and path validation.
 - 📝 Documenting what I learn along the way.
 
 <div align="center">
@@ -152,7 +154,7 @@ me.say_hello()
   </a>
 </div>
 
-**Libreta** — una base de conocimiento técnica en evolución continua: documentación de ciberseguridad, Android, IA, desarrollo y laboratorios locales. Construida con HTML, CSS y JavaScript, con estilos modulares y estadísticas de código automatizadas mediante GitHub Actions.
+**Libreta** — una base de conocimiento técnica en evolución continua: documentación de ciberseguridad, Android, IA, desarrollo y laboratorios locales. Construida con HTML, CSS y JavaScript, con arquitectura CSS modular, componentes separados por responsabilidad y estadísticas de código automatizadas mediante GitHub Actions. También documenta Dualvers V2, un cliente local multi proveedor para OpenAI y Anthropic con sesiones persistentes y validación segura de rutas.
 
 **More projects coming soon...**
 
