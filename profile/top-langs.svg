@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="392" viewBox="0 0 680 392" role="img" aria-labelledby="title desc">
 <title id="title">NOOCOKS // Language Matrix</title>
-<desc id="desc">Language distribution: HTML 57.45 percent, Python 20.30 percent, CSS 13.62 percent, JavaScript 8.33 percent, Shell 0.15 percent.</desc>
+<desc id="desc">Language distribution: HTML 57.20 percent, Python 20.65 percent, CSS 13.57 percent, JavaScript 8.30 percent, Shell 0.15 percent.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111216"/><stop offset=".56" stop-color="#080809"/><stop offset="1" stop-color="#18080D"/></linearGradient>
  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#790018"/><stop offset=".5" stop-color="#3A2028"/><stop offset="1" stop-color="#858B93"/></linearGradient>
@@ -36,42 +36,42 @@
 <text x="30" y="105" font-size="34" font-weight="900" letter-spacing="1.5" fill="#790018" filter="url(#glow)">MATRIX_</text>
 <g transform="translate(525 57)"><circle cx="49" cy="27" r="39" fill="none" stroke="#555B63"/><circle cx="49" cy="27" r="31" fill="none" stroke="#790018" stroke-width="4" stroke-dasharray="132 63" transform="rotate(-90 49 27)"/><circle cx="49" cy="27" r="21" fill="none" stroke="#858B93" stroke-opacity=".5" stroke-dasharray="2 5"/><text x="49" y="24" text-anchor="middle" font-size="16" font-weight="800" fill="#E4E6E9">05</text><text x="49" y="36" text-anchor="middle" font-size="7" letter-spacing="1" fill="#858B93">LANGS</text></g>
 <text x="31" y="132" class="micro">CODE COMPOSITION / RELATIVE SHARE</text>
-<g clip-path="url(#clip)"><rect x="30.00" y="143" width="356.73" height="16" fill="#790018"/>
- <rect x="386.73" y="143" width="126.05" height="16" fill="#555B63"/>
- <rect x="512.77" y="143" width="84.57" height="16" fill="#641326"/>
- <rect x="597.35" y="143" width="51.72" height="16" fill="#686E76"/>
+<g clip-path="url(#clip)"><rect x="30.00" y="143" width="355.10" height="16" fill="#790018"/>
+ <rect x="385.10" y="143" width="128.20" height="16" fill="#555B63"/>
+ <rect x="513.30" y="143" width="84.24" height="16" fill="#641326"/>
+ <rect x="597.54" y="143" width="51.53" height="16" fill="#686E76"/>
  <rect x="649.07" y="143" width="0.93" height="16" fill="#3F252C"/><path class="scan" d="M0 143V159" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
 <text x="30" y="182" class="micro">01 / DOMINANT</text><text x="650" y="182" text-anchor="end" class="micro">DISTRIBUTION INDEX // 100%</text>
 
 <g class="row r1" transform="translate(30 210)">
  <text x="0" y="0" class="label">HTML</text>
- <text x="620" y="0" text-anchor="end" class="num">57.45<tspan font-size="11" fill="#858B93">%</tspan></text>
+ <text x="620" y="0" text-anchor="end" class="num">57.20<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="11" width="620" height="8" rx="3" fill="#24262B"/>
- <rect class="bar" x="0" y="11" width="356.73" height="8" rx="3" fill="#790018"/>
+ <rect class="bar" x="0" y="11" width="355.10" height="8" rx="3" fill="#790018"/>
  <path d="M0 25H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
 <g class="row r2" transform="translate(30 245)">
  <text x="0" y="0" class="label">PYTHON</text>
- <text x="620" y="0" text-anchor="end" class="num">20.30<tspan font-size="11" fill="#858B93">%</tspan></text>
+ <text x="620" y="0" text-anchor="end" class="num">20.65<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="11" width="620" height="8" rx="3" fill="#24262B"/>
- <rect class="bar" x="0" y="11" width="126.05" height="8" rx="3" fill="#555B63"/>
+ <rect class="bar" x="0" y="11" width="128.20" height="8" rx="3" fill="#555B63"/>
  <path d="M0 25H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
 <g class="row r3" transform="translate(30 280)">
  <text x="0" y="0" class="label">CSS</text>
- <text x="620" y="0" text-anchor="end" class="num">13.62<tspan font-size="11" fill="#858B93">%</tspan></text>
+ <text x="620" y="0" text-anchor="end" class="num">13.57<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="11" width="620" height="8" rx="3" fill="#24262B"/>
- <rect class="bar" x="0" y="11" width="84.57" height="8" rx="3" fill="#641326"/>
+ <rect class="bar" x="0" y="11" width="84.24" height="8" rx="3" fill="#641326"/>
  <path d="M0 25H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
 <g class="row r4" transform="translate(30 315)">
  <text x="0" y="0" class="label">JAVASCRIPT</text>
- <text x="620" y="0" text-anchor="end" class="num">8.33<tspan font-size="11" fill="#858B93">%</tspan></text>
+ <text x="620" y="0" text-anchor="end" class="num">8.30<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="11" width="620" height="8" rx="3" fill="#24262B"/>
- <rect class="bar" x="0" y="11" width="51.72" height="8" rx="3" fill="#686E76"/>
+ <rect class="bar" x="0" y="11" width="51.53" height="8" rx="3" fill="#686E76"/>
  <path d="M0 25H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
