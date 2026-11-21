@@ -62,13 +62,13 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewB
  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#858B93" stroke-opacity=".07"/></pattern>
  <radialGradient id="glow"><stop stop-color="#790018" stop-opacity=".25"/><stop offset="1" stop-color="#790018" stop-opacity="0"/></radialGradient>
  <style>
- text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
- .micro{font-size:9px;letter-spacing:2px;fill:#858B93}
- .label{font-size:9px;letter-spacing:1.3px;fill:#A6ABB2}
- .value{font-size:25px;font-weight:900;fill:#E4E6E9}
- .repo{font-size:11px;font-weight:700;fill:#D8DADD}
- .desc{font-size:8px;fill:#777E87}
- .date{font-size:8px;letter-spacing:.5px;fill:#858B93}
+ text{{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}}
+ .micro{{font-size:9px;letter-spacing:2px;fill:#858B93}}
+ .label{{font-size:9px;letter-spacing:1.3px;fill:#A6ABB2}}
+ .value{{font-size:25px;font-weight:900;fill:#E4E6E9}}
+ .repo{{font-size:11px;font-weight:700;fill:#D8DADD}}
+ .desc{{font-size:8px;fill:#777E87}}
+ .date{{font-size:8px;letter-spacing:.5px;fill:#858B93}}
  </style>
 </defs>
 <rect x="1" y="1" width="678" height="308" rx="12" fill="url(#bg)" stroke="#555B63" stroke-opacity=".65"/>
