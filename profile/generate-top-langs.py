@@ -49,7 +49,7 @@ for index, (name, value) in enumerate(langs):
  <text x="620" y="0" text-anchor="end" class="num">{pct}<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
  <rect class="bar" x="0" y="7" width="{620*share:.2f}" height="6" rx="3" fill="{c1}"/>
- <path d="M0 25H620" stroke="#858B93" stroke-opacity=".12"/>
+ <path d="M0 19H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>""")
 # Adjust canvas height and row spacing to fit 3-5 languages.
 row_gap = 35
