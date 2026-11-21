@@ -1,6 +1,14 @@
 name: Update profile cards
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+      - "README.md"
+      - "profile/generate-*.py"
+      - "profile/templates/**"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
