@@ -21,11 +21,17 @@
 ## 01 / GITHUB ACTIVITY
 
 <div align="center">
-  <img src="./profile/stats.svg?v=6" width="49%" alt="GitHub core statistics"/>
-  <img src="./profile/streak.svg?v=3" width="49%" alt="Contribution activity"/>
+  <img src="./profile/stats.svg?v=7" width="49%" alt="GitHub core statistics"/>
+  <img src="./profile/streak.svg?v=4" width="49%" alt="Contribution activity"/>
   <br/>
-  <img src="./profile/top-langs.svg?v=3" width="49%" alt="Programming language distribution"/>
-  <img src="./profile/trophy.svg?v=9" width="49%" alt="Engineering principles"/>
+  <img src="./profile/top-langs.svg?v=4" width="49%" alt="Programming language distribution"/>
+  <img src="./profile/repositories.svg?v=1" width="49%" alt="Repository and open source activity"/>
+</div>
+
+### GITHUB TROPHIES
+
+<div align="center">
+  <img src="./profile/trophy.svg?v=10" width="100%" alt="GitHub achievements and trophies"/>
 </div>
 
 <div align="center">
