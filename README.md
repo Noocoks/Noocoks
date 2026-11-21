@@ -14,9 +14,26 @@
 
 </div>
 
----
+<div align="center">
+  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+</div>
 
-## 01 / PROFILE
+## 01 / GITHUB ACTIVITY
+
+<div align="center">
+  <img src="./profile/stats.svg?v=5" width="49%" alt="GitHub statistics"/>
+  <img src="./profile/streak.svg?v=2" width="49%" alt="Contribution streak"/>
+  <br/>
+  <img src="./profile/top-langs.svg?v=2" width="42%" alt="Most used languages"/>
+  <br/>
+  <img src="./profile/trophy.svg?v=8" width="100%" alt="GitHub trophies"/>
+</div>
+
+<div align="center">
+  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+</div>
+
+## 02 / PROFILE
 
 I'm an independent developer focused on **cybersecurity, software development and systems**. I enjoy understanding how technology works beneath the surface, building tools that solve real problems and documenting what I learn along the way.
 
@@ -26,7 +43,7 @@ My work moves between web experiences, desktop applications, cross-platform expe
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 02 / SELECTED WORK
+## 03 / SELECTED WORK
 
 A small collection of projects built around different parts of the same goal: make technology useful, understandable and well engineered.
 
@@ -74,7 +91,7 @@ A personal web experience bringing together my profile and work. Focused on resp
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 03 / TECHNICAL TOOLKIT
+## 04 / TECHNICAL TOOLKIT
 
 <div align="center">
 
@@ -90,7 +107,7 @@ A personal web experience bringing together my profile and work. Focused on resp
 
 My current interests include secure application design, cross-platform development, interface engineering, automation, local AI and practical security labs.
 
-## 04 / HOW I WORK
+## 05 / HOW I WORK
 
 - **Build to understand.** I prefer practical experiments and working prototypes over theory alone.
 - **Design for people.** Clear workflows and accessible interfaces matter as much as the underlying code.
@@ -100,17 +117,6 @@ My current interests include secure application design, cross-platform developme
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
-</div>
-
-## 05 / GITHUB ACTIVITY
-
-<div align="center">
-  <img src="./profile/stats.svg?v=5" width="49%" alt="GitHub statistics"/>
-  <img src="./profile/streak.svg?v=2" width="49%" alt="Contribution streak"/>
-  <br/>
-  <img src="./profile/top-langs.svg?v=2" width="42%" alt="Most used languages"/>
-  <br/>
-  <img src="./profile/trophy.svg?v=8" width="100%" alt="GitHub trophies"/>
 </div>
 
 ## 06 / CONNECT
