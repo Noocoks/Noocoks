@@ -84,6 +84,7 @@ jobs:
         run: |
           python profile/generate-stats.py
           python profile/generate-streak.py
+          python profile/generate-repositories.py
 
       - name: Build custom Language Matrix
         run: python profile/generate-top-langs.py
@@ -92,6 +93,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/streak.svg profile/top-langs.svg profile/trophy.svg
+          git add profile/stats.svg profile/streak.svg profile/top-langs.svg profile/repositories.svg profile/trophy.svg
           git commit -m "Update profile statistics cards" || exit 0
           git push
