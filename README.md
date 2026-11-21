@@ -25,14 +25,31 @@
   <img src="./profile/streak.svg?v=3" width="49%" alt="Contribution activity"/>
   <br/>
   <img src="./profile/top-langs.svg?v=3" width="49%" alt="Programming language distribution"/>
-  <img src="./profile/trophy.svg?v=9" width="49%" alt="Profile trophy case"/>
+  <img src="./profile/trophy.svg?v=9" width="49%" alt="Engineering principles"/>
 </div>
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
 </div>
 
-## 02 / PROFILE
+## 02 / SYSTEM PROFILE
+
+<div align="center">
+
+| SECURITY | DEVELOPMENT | SYSTEMS | ENGINEERING |
+|:---:|:---:|:---:|:---:|
+| Secure-by-design thinking | Web & desktop applications | Linux & Windows environments | Automation & CI/CD |
+| Practical security labs | Python, HTML, CSS & JavaScript | Docker & networking | Testing & maintainability |
+
+</div>
+
+My approach combines **security awareness**, **hands-on development** and **system-level curiosity**. I enjoy moving from understanding a problem to designing, building, testing and documenting a practical solution.
+
+<div align="center">
+  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+</div>
+
+## 03 / PROFILE
 
 I'm an independent developer focused on **cybersecurity, software development and systems**. I enjoy understanding how technology works beneath the surface, building tools that solve real problems and documenting what I learn along the way.
 
@@ -42,7 +59,7 @@ My work moves between web experiences, desktop applications, cross-platform expe
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 03 / SELECTED WORK
+## 04 / SELECTED WORK
 
 A small collection of projects built around different parts of the same goal: make technology useful, understandable and well engineered.
 
@@ -90,7 +107,7 @@ A personal web experience bringing together my profile and work. Focused on resp
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 04 / TECHNICAL TOOLKIT
+## 05 / TECHNICAL TOOLKIT
 
 <div align="center">
 
@@ -106,7 +123,7 @@ A personal web experience bringing together my profile and work. Focused on resp
 
 My current interests include secure application design, cross-platform development, interface engineering, automation, local AI and practical security labs.
 
-## 05 / HOW I WORK
+## 06 / HOW I WORK
 
 - **Build to understand.** I prefer practical experiments and working prototypes over theory alone.
 - **Design for people.** Clear workflows and accessible interfaces matter as much as the underlying code.
@@ -118,7 +135,7 @@ My current interests include secure application design, cross-platform developme
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 06 / CONNECT
+## 07 / CONNECT
 
 <div align="center">
 
