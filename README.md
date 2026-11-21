@@ -18,7 +18,6 @@
   <img src="./profile/riot-divider-final.svg?v=6" width="100%" alt="Animated industrial divider"/>
 </div>
 
-<!-- GitHub Trophies -->
 <div align="center">
   <img src="./profile/trophy.svg?v=7" width="100%" alt="GitHub Trophies"/>
 </div>
@@ -36,7 +35,6 @@
       </td>
     </tr>
   </table>
-
   <img src="./profile/top-langs.svg" width="45%" alt="Top Languages"/>
 </div>
 
@@ -45,36 +43,25 @@
 </div>
 
 ## <code>// 02 — TECH ARSENAL</code>
+
 <div align="center">
   <sub><code>01 / BUILD · DESIGN · AUTOMATE</code></sub>
-</div>
-
-**[ DEVELOPMENT CORE ]**
-
-<div align="center">
+  <br/><br/>
   <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,github,markdown&theme=dark&perline=7" alt="HTML, CSS, JavaScript, Python, Git, GitHub and Markdown"/>
 </div>
 
 <div align="center">
   <sub><code>02 / SYSTEMS · ENVIRONMENTS · WORKFLOW</code></sub>
-</div>
-
-**[ SYSTEMS & TOOLING ]**
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,docker,obsidian,vscode&theme=dark&perline=5" alt="Linux, Bash, Docker, Obsidian and Visual Studio Code"/>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=linux,bash,docker,obsidian,vscode,windows&theme=dark&perline=6" alt="Linux, Bash, Docker, Obsidian, VS Code and Windows"/>
 </div>
 
 <div align="center">
-  <sub><code>03 / TEST · BREAK · LEARN</code></sub>
-</div>
-
-**[ CURRENT EXPERIMENTS ]**
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ollama&theme=dark&perline=2" alt="React and Ollama"/>
+  <sub><code>03 / CURRENT EXPLORATION</code></sub>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,ollama,android&theme=dark&perline=3" alt="React, Ollama and Android"/>
   <br/>
-  <sub>Exploring component-based interfaces and building local AI workflows with modular, maintainable web architecture.</sub>
+  <sub>Local AI, cross-platform applications, interface engineering and secure software architecture.</sub>
 </div>
 
 <div align="center">
@@ -83,15 +70,15 @@
 
 ## <code>// 03 — SECURITY LAB</code>
 
-I'm particularly interested in understanding how systems work, identifying vulnerabilities and learning how to secure them.
+I'm interested in understanding how systems work, identifying weaknesses and learning how to secure them through practical work.
 
-- 🔍 **Pentesting:** Learning offensive security techniques in controlled environments.
-- 🌐 **Networking:** Understanding network protocols, services and infrastructure.
-- 🕵️ **OSINT:** Information gathering and open-source intelligence.
-- 🐧 **Linux:** Working with Linux environments and command-line tools.
-- 🧪 **Labs:** Building local environments to experiment, document and learn.
-- 🛡️ **Security:** Understanding vulnerabilities, defensive techniques and mitigation.
-- 📚 **Technical documentation:** Developing Libreta, a personal knowledge base for tools, labs, procedures and development notes.
+- 🔍 **Pentesting:** Offensive security techniques in authorized environments.
+- 🌐 **Networking:** Protocols, services and infrastructure.
+- 🕵️ **OSINT:** Open-source intelligence and information gathering.
+- 🐧 **Linux:** System administration and command-line tooling.
+- 🧪 **Labs:** Local environments for testing, documenting and learning.
+- 🛡️ **Secure development:** Input validation, safer session handling, dependency auditing and automated checks.
+- 📚 **Knowledge sharing:** Libreta, my evolving technical knowledge base.
 
 <sub>All security-related experiments are conducted in authorized environments and controlled labs.</sub>
 
@@ -110,19 +97,16 @@ class Noocoks:
             "Software Development",
             "Linux & Open Source",
             "Local AI",
-            "Technology"
+            "Creative Technology"
         ]
-
         self.current_focus = [
-            "Pentesting & Security Labs",
-            "Frontend Development",
-            "Python",
-            "Scalable Software Architecture",
-            "Local AI with Ollama",
-            "Dualvers V2: multi-provider CLI with safer session handling",
-            "Libreta: technical documentation, modular CSS & automated project metrics"
+            "Security research & practical labs",
+            "Cross-platform application development",
+            "Frontend engineering & interaction design",
+            "Python automation",
+            "Local AI workflows",
+            "Secure software architecture"
         ]
-
         self.mindset = "Learn by building"
 
     def say_hello(self):
@@ -135,12 +119,11 @@ me.say_hello()
 
 ### `// CURRENT OPERATIONS`
 
-- 📚 Improving my cybersecurity knowledge through practical labs.
-- 💻 Building and improving personal development projects.
-- 🧠 Exploring local AI models and AI-assisted workflows.
-- ⚙️ Applying modular CSS architecture and improving maintainability in real projects.
-- 🔐 Developing and documenting safer local tooling, including session and path validation.
-- 📝 Documenting what I learn along the way.
+- 🛠️ Building and maintaining independent software projects.
+- 🔐 Improving application security and development workflows.
+- 🎨 Refining responsive interfaces, animations and visual identities.
+- 🧠 Exploring local AI and practical automation.
+- 📝 Turning experiments and research into reusable documentation.
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=6" width="100%" alt="Animated industrial divider"/>
@@ -148,21 +131,64 @@ me.say_hello()
 
 ## <code>// 05 — FIELD PROJECTS</code>
 
+A selection of projects I'm actively building and maintaining.
+
 <div align="center">
   <a href="https://github.com/Noocoks/Libreta">
     <img src="./profile/pin-Libreta-v3.svg" alt="Libreta Repository"/>
   </a>
 </div>
 
-**Libreta** — una base de conocimiento técnica en evolución continua: documentación de ciberseguridad, Android, IA, desarrollo y laboratorios locales. Construida con HTML, CSS y JavaScript, con arquitectura CSS modular, componentes separados por responsabilidad y estadísticas de código automatizadas mediante GitHub Actions. También documenta Dualvers V2, un cliente local multi proveedor para OpenAI y Anthropic con sesiones persistentes y validación segura de rutas.
+**[Libreta](https://github.com/Noocoks/Libreta)** · [Live website](https://noocoks.github.io/Libreta/)
 
-**More projects coming soon...**
+A modular technical knowledge base covering cybersecurity, Android, AI, development and controlled labs. Includes a responsive wiki, structured navigation, modular CSS, automated project metrics and GitHub Actions quality checks.
+
+---
+
+<div align="center">
+  <a href="https://github.com/Noocoks/SOUNWD">
+    <img src="https://img.shields.io/badge/SOUNWD-AUDIO_TOOL-0D1117?style=for-the-badge&labelColor=790018" alt="SOUNWD"/>
+  </a>
+</div>
+
+**[SOUNWD](https://github.com/Noocoks/SOUNWD)**
+
+A cross-platform audio downloader for Windows and Linux, with an Android version in development. Built around a simple GUI, yt-dlp, configurable formats and advanced options. Uses one master brand asset to generate platform icons and automated CI builds.
+
+---
+
+<div align="center">
+  <a href="https://github.com/Noocoks/OpenLiveVideo">
+    <img src="https://img.shields.io/badge/OLV-OPEN_LIVE_VIDEO-0D1117?style=for-the-badge&labelColor=790018" alt="OLV — Open Live Video"/>
+  </a>
+</div>
+
+**[OLV — Open Live Video](https://github.com/Noocoks/OpenLiveVideo)**
+
+A desktop application for creating vertical YouTube Shorts locally on Windows and Linux. Turns a written story into a reviewed sequence of scenes, voice narration, subtitles and a 1080×1920 MP4 using Pixabay, Edge TTS and FFmpeg. Publishing always stays under manual control.
+
+---
+
+<div align="center">
+  <a href="https://github.com/Noocoks/Pf">
+    <img src="https://img.shields.io/badge/PF-PERSONAL_PORTFOLIO-0D1117?style=for-the-badge&labelColor=790018" alt="Personal portfolio"/>
+  </a>
+</div>
+
+**[Personal Portfolio](https://github.com/Noocoks/Pf)** · [Visit website](https://noocoks.github.io/Pf/)
+
+My personal portfolio: a responsive showcase of my profile, projects and work across development, systems and technology. Features a custom visual identity, smooth scrolling, section-based background transitions and refined motion.
+
+<div align="center">
+  <sub><code>MORE EXPERIMENTS · MORE BUILDS · ALWAYS EVOLVING</code></sub>
+</div>
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=6" width="100%" alt="Animated industrial divider"/>
 </div>
 
 ## <code>// 06 — SETUP</code>
+
 <div align="center">
   <sub><code>HOST SYSTEM // DAILY ENVIRONMENT</code></sub>
   <br/><br/>
@@ -193,6 +219,7 @@ me.say_hello()
 </div>
 
 ## <code>// 07 — TRANSMISSION</code>
+
 <div align="center">
   <sub><code>SECURE CHANNEL // PICK YOUR ROUTE</code></sub>
   <br/><br/>
