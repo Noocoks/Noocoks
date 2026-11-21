@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./profile/noocoks-hero.svg?v=2" width="100%" alt="Noocoks — Cybersecurity, Software and Systems"/>
+  <img src="./profile/hardcore-header.svg" width="100%" alt="Noocoks — Cybersecurity, Software and Systems"/>
 </div>
 
 <div align="center">
