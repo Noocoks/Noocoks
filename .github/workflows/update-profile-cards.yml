@@ -81,6 +81,9 @@ jobs:
           PY
 
       - name: Build custom GitHub dashboards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
           python profile/generate-stats.py
           python profile/generate-streak.py
