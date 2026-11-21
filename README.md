@@ -147,7 +147,7 @@ A modular technical knowledge base covering cybersecurity, Android, AI, developm
 
 <div align="center">
   <a href="https://github.com/Noocoks/SOUNWD">
-    <img src="https://img.shields.io/badge/SOUNWD-AUDIO_TOOL-0D1117?style=for-the-badge&labelColor=790018" alt="SOUNWD"/>
+    <img src="./profile/pin-SOUNWD.svg" alt="SOUNWD project card"/>
   </a>
 </div>
 
@@ -159,7 +159,7 @@ A cross-platform audio downloader for Windows and Linux, with an Android version
 
 <div align="center">
   <a href="https://github.com/Noocoks/OpenLiveVideo">
-    <img src="https://img.shields.io/badge/OLV-OPEN_LIVE_VIDEO-0D1117?style=for-the-badge&labelColor=790018" alt="OLV — Open Live Video"/>
+    <img src="./profile/pin-OLV.svg" alt="OLV — Open Live Video project card"/>
   </a>
 </div>
 
@@ -171,7 +171,7 @@ A desktop application for creating vertical YouTube Shorts locally on Windows an
 
 <div align="center">
   <a href="https://github.com/Noocoks/Pf">
-    <img src="https://img.shields.io/badge/PF-PERSONAL_PORTFOLIO-0D1117?style=for-the-badge&labelColor=790018" alt="Personal portfolio"/>
+    <img src="./profile/pin-Pf.svg" alt="Personal portfolio project card"/>
   </a>
 </div>
 
