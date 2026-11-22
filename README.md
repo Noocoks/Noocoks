@@ -66,25 +66,20 @@ My work moves between web experiences, desktop applications, cross-platform expe
 ## 04 / SELECTED PROJECTS
 
 <div align="center">
-  <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">
-    <img src="./profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Explore Libreta — technical knowledge base"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Libreta — technical knowledge base"/>
+  <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">VIEW TECHNICAL CASE STUDY ↗</a>
   <br/><br/>
-  <a href="https://noocoks.github.io/Pf/proyectos/sounwd.html">
-    <img src="./profile/pin-SOUNWD.svg?v=2" width="100%" alt="Explore SOUNWD — cross-platform audio tool"/>
-  </a>
+
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/pin-SOUNWD.svg?v=2" width="100%" alt="SOUNWD — cross-platform audio tool"/>
+  <a href="https://noocoks.github.io/Pf/proyectos/sounwd.html">VIEW TECHNICAL CASE STUDY ↗</a>
   <br/><br/>
-  <a href="https://noocoks.github.io/Pf/proyectos/olv.html">
-    <img src="./profile/pin-OLV.svg?v=2" width="100%" alt="Explore OLV — Open Live Video"/>
-  </a>
+
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/pin-OLV.svg?v=2" width="100%" alt="OLV — Open Live Video"/>
+  <a href="https://noocoks.github.io/Pf/proyectos/olv.html">VIEW TECHNICAL CASE STUDY ↗</a>
 </div>
 
 <div align="center">
-  <sub>SELECT A PROJECT TO EXPLORE ITS TECHNICAL CASE STUDY ↗</sub>
-</div>
-
-<div align="center">
-  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 05 / TECHNICAL TOOLKIT
