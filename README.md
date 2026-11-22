@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./profile/hardcore-header.svg" width="100%" alt="Noocoks — Cybersecurity, Software and Systems"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/hardcore-header.svg" width="100%" alt="Noocoks — Cybersecurity, Software and Systems"/>
 </div>
 
 <div align="center">
@@ -66,30 +66,17 @@ My work moves between web experiences, desktop applications, cross-platform expe
 ## 04 / SELECTED PROJECTS
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center" valign="middle">
-        <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">
-          <img src="./profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Explore Libreta — technical knowledge base"/>
-        </a>
-      </td>
-      <td width="50%" align="center" valign="middle">
-        <a href="https://noocoks.github.io/Pf/proyectos/sounwd.html">
-          <img src="./profile/pin-SOUNWD.svg?v=2" width="100%" alt="Explore SOUNWD — cross-platform audio tool"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center" valign="middle">
-        <a href="https://noocoks.github.io/Pf/proyectos/olv.html">
-          <img src="./profile/pin-OLV.svg?v=2" width="100%" alt="Explore OLV — Open Live Video"/>
-        </a>
-      </td>
-      <td width="50%" align="center" valign="middle">
-        <!-- Add the next featured project here to extend the grid. -->
-      </td>
-    </tr>
-  </table>
+  <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">
+    <img src="./profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Explore Libreta — technical knowledge base"/>
+  </a>
+  <br/><br/>
+  <a href="https://noocoks.github.io/Pf/proyectos/sounwd.html">
+    <img src="./profile/pin-SOUNWD.svg?v=2" width="100%" alt="Explore SOUNWD — cross-platform audio tool"/>
+  </a>
+  <br/><br/>
+  <a href="https://noocoks.github.io/Pf/proyectos/olv.html">
+    <img src="./profile/pin-OLV.svg?v=2" width="100%" alt="Explore OLV — Open Live Video"/>
+  </a>
 </div>
 
 <div align="center">
