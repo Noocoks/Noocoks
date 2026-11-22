@@ -105,7 +105,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewB
 <text x="30" y="105" font-size="34" font-weight="900" letter-spacing="1.5" fill="#790018" filter="url(#glow)">MATRIX_</text>
 <g transform="translate(525 57)"><circle cx="49" cy="27" r="39" fill="none" stroke="#555B63"/><circle cx="49" cy="27" r="31" fill="none" stroke="#790018" stroke-width="4" stroke-dasharray="132 63" transform="rotate(-90 49 27)"/><circle cx="49" cy="27" r="21" fill="none" stroke="#858B93" stroke-opacity=".5" stroke-dasharray="2 5"/><text x="49" y="24" text-anchor="middle" font-size="16" font-weight="800" fill="#E4E6E9">{len(langs):02d}</text><text x="49" y="36" text-anchor="middle" font-size="7" letter-spacing="1" fill="#858B93">LANGS</text></g>
 <text x="31" y="122" class="micro">CODE COMPOSITION / SHARE OF ALL CODE</text>
-<g clip-path="url(#clip)"><rect x="30" y="132" width="620" height="12" fill="#24262B"/>{segments_svg}<path class="scan" d="M0 143V144" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
+<g clip-path="url(#clip)"><rect x="30" y="132" width="620" height="12" fill="#24262B"/>{segments_svg}<path class="scan" d="M0 143V144" stroke="#D8DADD" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
 <text x="30" y="160" class="micro">01 / DOMINANT</text><text x="650" y="160" text-anchor="end" class="micro">TOP LANGUAGES // ACTUAL SHARE</text>
 {rows_svg}
 <text x="650" y="298" text-anchor="end" font-size="8" fill="#555B63" letter-spacing="2">CRIMSON / STEEL / 001</text>
