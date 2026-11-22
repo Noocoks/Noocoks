@@ -63,39 +63,38 @@ My work moves between web experiences, desktop applications, cross-platform expe
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
-## 04 / SELECTED WORK
-
-A small collection of projects built around different parts of the same goal: make technology useful, understandable and well engineered.
+## 04 / SELECTED PROJECTS
 
 <div align="center">
-  <a href="https://github.com/Noocoks/Libreta">
-    <img src="./profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Libreta — technical knowledge base"/>
-  </a>
+  <table>
+    <tr>
+      <td width="50%" align="center" valign="middle">
+        <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">
+          <img src="./profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Explore Libreta — technical knowledge base"/>
+        </a>
+      </td>
+      <td width="50%" align="center" valign="middle">
+        <a href="https://noocoks.github.io/Pf/proyectos/sounwd.html">
+          <img src="./profile/pin-SOUNWD.svg?v=2" width="100%" alt="Explore SOUNWD — cross-platform audio tool"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" valign="middle">
+        <a href="https://noocoks.github.io/Pf/proyectos/olv.html">
+          <img src="./profile/pin-OLV.svg?v=2" width="100%" alt="Explore OLV — Open Live Video"/>
+        </a>
+      </td>
+      <td width="50%" align="center" valign="middle">
+        <!-- Add the next featured project here to extend the grid. -->
+      </td>
+    </tr>
+  </table>
 </div>
-
-**[LIBRETA — Technical Knowledge Base](https://github.com/Noocoks/Libreta)** · [Open the live site](https://noocoks.github.io/Libreta/)
-
-A structured knowledge base for cybersecurity, Android, AI, development and practical labs. Built as a lightweight static site with modular styling, organised navigation, automated project metrics and GitHub Actions quality checks.
 
 <div align="center">
-  <a href="https://github.com/Noocoks/SOUNWD">
-    <img src="./profile/pin-SOUNWD.svg?v=2" width="100%" alt="SOUNWD — cross-platform audio tool"/>
-  </a>
+  <sub>SELECT A PROJECT TO EXPLORE ITS TECHNICAL CASE STUDY ↗</sub>
 </div>
-
-**[SOUNWD — Cross-platform Audio Tool](https://github.com/Noocoks/SOUNWD)**
-
-A straightforward desktop application for saving audio from supported YouTube links. Provides a simple GUI, configurable formats and advanced yt-dlp options, with Windows and Linux builds. An Android/Kivy version is under development, with shared brand assets and automated build workflows.
-
-<div align="center">
-  <a href="https://github.com/Noocoks/OpenLiveVideo">
-    <img src="./profile/pin-OLV.svg?v=2" width="100%" alt="OLV — Open Live Video"/>
-  </a>
-</div>
-
-**[OLV — Open Live Video](https://github.com/Noocoks/OpenLiveVideo)**
-
-A local desktop tool for turning written stories into vertical videos. It combines scene preparation, Pixabay footage, Spanish narration, subtitles and FFmpeg rendering into reviewable 1080×1920 MP4s. The final result stays under the user’s control: nothing is published automatically.
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
