@@ -32,11 +32,12 @@ owned = [
 ]
 stars = sum(repo.get("stargazers_count", 0) for repo in owned)
 forks = sum(repo.get("forks_count", 0) for repo in owned)
+MAX_RECENT_REPOSITORIES = 3
 recent = sorted(
-    owned,
-    key=lambda repo: repo.get("pushed_at") or "",
+    (repo for repo in owned if repo.get("pushed_at")),
+    key=lambda repo: repo["pushed_at"],
     reverse=True,
-)[:3]
+)[:MAX_RECENT_REPOSITORIES]
 
 
 def ago(iso):
@@ -56,7 +57,7 @@ def ago(iso):
 
 rows = []
 for index, repo in enumerate(recent):
-    y = 192 + index * 31
+    y = 212 + index * 28
     name = escape(repo.get("name", "Repository"))[:30]
     raw_description = repo.get("description") or "Description not set"
     if len(raw_description) > 49:
@@ -74,7 +75,7 @@ for index, repo in enumerate(recent):
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewBox="0 0 680 310" role="img" aria-labelledby="title desc">
 <title id="title">NOOCOKS // Repository Pulse</title>
-<desc id="desc">Live repository overview: {len(owned)} owned repositories, {stars} stars and {forks} forks. Recently pushed original repositories are listed below. Forks and the personal portfolio are excluded.</desc>
+<desc id="desc">Live repository overview: {len(owned)} owned repositories, {stars} stars and {forks} forks. Up to three recently pushed original repositories are listed below. Forks and the personal portfolio are excluded.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121317"/><stop offset=".56" stop-color="#080809"/><stop offset="1" stop-color="#18070C"/></linearGradient>
  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#790018"/><stop offset=".5" stop-color="#3B252C"/><stop offset="1" stop-color="#858B93"/></linearGradient>
@@ -109,7 +110,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewB
 </g>
 <path d="M30 181H650" stroke="#858B93" stroke-opacity=".25"/>
 <text x="30" y="188" class="micro">RECENTLY PUSHED // LATEST PROJECT SIGNALS</text>
-{''.join(rows)}
+{''.join(rows) if rows else '<text x="47" y="218" class="desc">No recent repository activity</text>'}
 <text x="650" y="298" text-anchor="end" font-size="8" letter-spacing="2" fill="#555B63">LIVE GITHUB API // ORIGINAL REPOSITORIES</text>
 </svg>'''
 Path("profile/repositories.svg").write_text(svg, encoding="utf-8")
