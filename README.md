@@ -23,7 +23,7 @@
   <img src="./profile/streak.svg?v=6" width="49%" alt="Contribution activity"/>
   <br/>
   <img src="./profile/top-langs.svg?v=6" width="49%" alt="Programming language distribution"/>
-  <img src="./profile/repositories.svg?v=2" width="49%" alt="Repository and open source activity"/>
+  <img src="./profile/repositories.svg?v=3" width="49%" alt="Repository and open source activity"/>
 </div>
 
 ### GITHUB TROPHIES
