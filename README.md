@@ -13,27 +13,27 @@
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 01 / GITHUB ACTIVITY
 
 <div align="center">
-  <img src="./profile/stats.svg?v=9" width="49%" alt="GitHub core statistics"/>
-  <img src="./profile/streak.svg?v=6" width="49%" alt="Contribution activity"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/stats.svg?v=9" width="49%" alt="GitHub core statistics"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/streak.svg?v=6" width="49%" alt="Contribution activity"/>
   <br/>
-  <img src="./profile/top-langs.svg?v=7" width="49%" alt="Programming language distribution"/>
-  <img src="./profile/repositories.svg?v=3" width="49%" alt="Repository and open source activity"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/top-langs.svg?v=7" width="49%" alt="Programming language distribution"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/repositories.svg?v=3" width="49%" alt="Repository and open source activity"/>
 </div>
 
 ### GITHUB TROPHIES
 
 <div align="center">
-  <img src="./profile/trophy.svg?v=13" width="100%" alt="GitHub achievements and trophies"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/trophy.svg?v=13" width="100%" alt="GitHub achievements and trophies"/>
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 02 / SYSTEM PROFILE
@@ -50,7 +50,7 @@
 My approach combines **security awareness**, **hands-on development** and **system-level curiosity**. I enjoy moving from understanding a problem to designing, building, testing and documenting a practical solution.
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=8" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 03 / PROFILE
@@ -60,7 +60,7 @@ I'm an independent developer focused on **cybersecurity, software development an
 My work moves between web experiences, desktop applications, cross-platform experiments, automation and security-focused research. I value clear interfaces, maintainable architecture, practical testing and thoughtful details.
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 04 / SELECTED PROJECTS
@@ -99,7 +99,7 @@ My work moves between web experiences, desktop applications, cross-platform expe
 My current interests include secure application design, cross-platform development, interface engineering, automation, local AI and practical security labs.
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 06 / HOW I WORK
@@ -111,7 +111,7 @@ My current interests include secure application design, cross-platform developme
 - **Keep improving.** Refactoring, responsive behaviour, accessibility and maintainability are ongoing work.
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
 </div>
 
 ## 07 / CONNECT
@@ -127,7 +127,7 @@ My current interests include secure application design, cross-platform developme
 </div>
 
 <div align="center">
-  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+  <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
   <br/>
 
   **BUILD WITH INTENT. KEEP EXPLORING. NEVER STOP REFINING.**
