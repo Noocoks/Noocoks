@@ -50,5 +50,13 @@ named = {
 for old, new in named.items():
     svg = re.sub(rf'(?i)(?<![\w-]){old}(?![\w-])', new, svg)
 
+# The upstream trophy generator places 100px icons over the caption zone.
+# Scale and center each nested icon so its artwork ends above the title at y=85.
+svg = re.sub(
+    r'<svg x="28" y="20" width="100" height="100" viewBox="0 0 30 30"',
+    '<svg x="25" y="20" width="60" height="60" viewBox="0 0 30 30"',
+    svg,
+)
+
 path.write_text(svg, encoding="utf-8")
 print("Recolored generated trophy SVG using the crimson/steel palette.")
