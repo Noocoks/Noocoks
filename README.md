@@ -66,6 +66,11 @@ My work moves between web experiences, desktop applications, cross-platform expe
 ## 04 / SELECTED PROJECTS
 
 <div align="center">
+  <sub>↗ CLICK ON A PROJECT TO EXPLORE ITS TECHNICAL DETAILS</sub>
+</div>
+<br/>
+
+<div align="center">
   <a href="https://noocoks.github.io/Pf/proyectos/libreta.html">
     <img src="https://raw.githubusercontent.com/Noocoks/Noocoks/main/profile/pin-Libreta-v3.svg?v=2" width="100%" alt="Explore Libreta — technical knowledge base"/>
   </a>
