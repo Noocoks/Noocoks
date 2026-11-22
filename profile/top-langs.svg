@@ -43,7 +43,7 @@
 <rect x="645.04" y="132" width="2.54" height="12" fill="#3F252C"/><path class="scan" d="M0 143V144" stroke="#D8DADD" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
 <text x="30" y="160" class="micro">01 / DOMINANT</text><text x="650" y="160" text-anchor="end" class="micro">TOP LANGUAGES // ACTUAL SHARE</text>
 
-<g class="row r1" transform="translate(30 174)">
+<g class="row r1" transform="translate(30 182)">
  <text x="0" y="0" class="label">HTML</text>
  <text x="620" y="0" text-anchor="end" class="num">36.25<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
@@ -51,7 +51,7 @@
  <path d="M0 19H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
-<g class="row r2" transform="translate(30 196)">
+<g class="row r2" transform="translate(30 204)">
  <text x="0" y="0" class="label">PYTHON</text>
  <text x="620" y="0" text-anchor="end" class="num">34.96<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
@@ -59,7 +59,7 @@
  <path d="M0 19H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
-<g class="row r3" transform="translate(30 218)">
+<g class="row r3" transform="translate(30 226)">
  <text x="0" y="0" class="label">CSS</text>
  <text x="620" y="0" text-anchor="end" class="num">18.72<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
@@ -67,7 +67,7 @@
  <path d="M0 19H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
-<g class="row r4" transform="translate(30 240)">
+<g class="row r4" transform="translate(30 248)">
  <text x="0" y="0" class="label">JAVASCRIPT</text>
  <text x="620" y="0" text-anchor="end" class="num">9.27<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
@@ -75,7 +75,7 @@
  <path d="M0 19H620" stroke="#858B93" stroke-opacity=".12"/>
 </g>
 
-<g class="row r5" transform="translate(30 262)">
+<g class="row r5" transform="translate(30 270)">
  <text x="0" y="0" class="label">SHELL</text>
  <text x="620" y="0" text-anchor="end" class="num">0.41<tspan font-size="11" fill="#858B93">%</tspan></text>
  <rect x="0" y="7" width="620" height="6" rx="3" fill="#24262B"/>
