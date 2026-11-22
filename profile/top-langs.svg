@@ -40,7 +40,7 @@
  <rect x="259.05" y="132" width="215.98" height="12" fill="#555B63"/>
  <rect x="475.04" y="132" width="116.71" height="12" fill="#641326"/>
  <rect x="591.74" y="132" width="55.65" height="12" fill="#686E76"/>
- <rect x="647.39" y="132" width="2.61" height="12" fill="#3F252C"/><path class="scan" d="M0 143V144" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
+ <rect x="647.39" y="132" width="2.61" height="12" fill="#3F252C"/><path class="scan" d="M0 143V144" stroke="#D8DADD" stroke-opacity=".75" stroke-width="2" filter="url(#glow)"/></g>
 <text x="30" y="160" class="micro">01 / DOMINANT</text><text x="650" y="182" text-anchor="end" class="micro">TOP LANGUAGES // ACTUAL SHARE</text>
 
 <g class="row r1" transform="translate(30 174)">
