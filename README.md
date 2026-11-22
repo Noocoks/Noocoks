@@ -4,9 +4,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-NOOCOKS-111318?style=for-the-badge&logo=github&logoColor=E5E7EB&labelColor=790018)](https://github.com/Noocoks)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-EXPLORE-111318?style=for-the-badge&logo=firefoxbrowser&logoColor=E5E7EB&labelColor=790018)](https://noocoks.github.io/Pf/)
-[![Libreta](https://img.shields.io/badge/LIBRETA-KNOWLEDGE-111318?style=for-the-badge&logo=readthedocs&logoColor=E5E7EB&labelColor=790018)](https://noocoks.github.io/Libreta/)
 
 **Independent projects. Practical engineering. Security-minded development.**
 
@@ -98,16 +96,6 @@ A straightforward desktop application for saving audio from supported YouTube li
 **[OLV — Open Live Video](https://github.com/Noocoks/OpenLiveVideo)**
 
 A local desktop tool for turning written stories into vertical videos. It combines scene preparation, Pixabay footage, Spanish narration, subtitles and FFmpeg rendering into reviewable 1080×1920 MP4s. The final result stays under the user’s control: nothing is published automatically.
-
-<div align="center">
-  <a href="https://github.com/Noocoks/Pf">
-    <img src="./profile/pin-Pf.svg?v=2" width="100%" alt="Personal portfolio"/>
-  </a>
-</div>
-
-**[PERSONAL PORTFOLIO](https://github.com/Noocoks/Pf)** · [Visit the website](https://noocoks.github.io/Pf/)
-
-A personal web experience bringing together my profile and work. Focused on responsive presentation, a distinctive visual identity, smooth scrolling and carefully tuned motion.
 
 <div align="center">
   <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
