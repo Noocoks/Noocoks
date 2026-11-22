@@ -19,7 +19,7 @@ request = Request(
 with urlopen(request, timeout=30) as response:
     repos = json.load(response)
 
-owned = [repo for repo in repos if not repo.get("fork", False)]
+owned = [repo for repo in repos if not repo.get("fork", False) and repo.get("name", "").casefold() != "pf"]  # Exclude the personal portfolio from project telemetry.
 stars = sum(repo.get("stargazers_count", 0) for repo in owned)
 forks = sum(repo.get("forks_count", 0) for repo in owned)
 recent = sorted(owned, key=lambda repo: repo.get("pushed_at") or "", reverse=True)[:3]
