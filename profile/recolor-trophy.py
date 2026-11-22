@@ -36,7 +36,7 @@ def recolor(match):
 
 
 # Restrict replacement to SVG color literals; IDs, URLs and geometry stay intact.
-svg = re.sub(r"#[0-9A-Fa-f]{3}(?:[0-9A-Fa-f]|[0-9A-Fa-f]{3})?(?:[0-9A-Fa-f]{2})?", recolor, svg)
+svg = re.sub(r"#[0-9A-Fa-f]{8}\\b|#[0-9A-Fa-f]{6}\\b|#[0-9A-Fa-f]{3}\\b", recolor, svg)
 named = {
     "white": "#D8DADD",
     "black": "#080809",
