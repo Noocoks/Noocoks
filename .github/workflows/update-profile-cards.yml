@@ -8,6 +8,7 @@ on:
       - ".github/workflows/update-profile-cards.yml"
       - "README.md"
       - "profile/generate-*.py"
+      - "profile/recolor-trophy.py"
       - "profile/templates/**"
   schedule:
     - cron: "17 3 * * *"
