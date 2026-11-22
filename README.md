@@ -29,7 +29,7 @@
 ### GITHUB TROPHIES
 
 <div align="center">
-  <img src="./profile/trophy.svg?v=12" width="100%" alt="GitHub achievements and trophies"/>
+  <img src="./profile/trophy.svg?v=13" width="100%" alt="GitHub achievements and trophies"/>
 </div>
 
 <div align="center">
