@@ -80,6 +80,9 @@ jobs:
                   path.write_text(text, encoding="utf-8")
           PY
 
+      - name: Normalize trophy palette
+        run: python profile/recolor-trophy.py
+
       - name: Build custom GitHub dashboards
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
