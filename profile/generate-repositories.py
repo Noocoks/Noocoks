@@ -58,7 +58,10 @@ rows = []
 for index, repo in enumerate(recent):
     y = 192 + index * 31
     name = escape(repo.get("name", "Repository"))[:30]
-    description = escape(repo.get("description") or "No description provided.")[:52]
+    raw_description = repo.get("description") or "Description not set"
+    if len(raw_description) > 49:
+        raw_description = raw_description[:46].rsplit(" ", 1)[0] + "…"
+    description = escape(raw_description)
     pushed = ago(repo.get("pushed_at"))
     rows.append(
         f'<g transform="translate(30 {y})">'
