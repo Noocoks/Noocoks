@@ -50,7 +50,7 @@ for index, (name, value) in enumerate(langs):
         )
     cursor += share
 
-    y = 174 + index * 25
+    y = 174 + index * 22
     display_name = html.escape(name.upper())
     pct = f"{value:.2f}"
     row_share = min(max(value, 0.0), 100.0)
