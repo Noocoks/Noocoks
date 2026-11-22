@@ -9,9 +9,13 @@ import os
 
 username = os.environ.get("GITHUB_REPOSITORY_OWNER", "Noocoks")
 token = os.environ.get("GH_TOKEN", "")
-headers = {"Accept": "application/vnd.github+json", "User-Agent": "Noocoks-profile-telemetry"}
+headers = {
+    "Accept": "application/vnd.github+json",
+    "User-Agent": "Noocoks-profile-telemetry",
+}
 if token:
     headers["Authorization"] = f"Bearer {token}"
+
 request = Request(
     f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated&type=owner",
     headers=headers,
@@ -19,10 +23,21 @@ request = Request(
 with urlopen(request, timeout=30) as response:
     repos = json.load(response)
 
-owned = [repo for repo in repos if not repo.get("fork", False) and repo.get("name", "").casefold() != "pf"]  # Exclude the personal portfolio from project telemetry.
+# Count original repositories only. The portfolio remains a personal reference,
+# not a featured project, and forks are excluded from project telemetry.
+owned = [
+    repo for repo in repos
+    if not repo.get("fork", False)
+    and repo.get("name", "").casefold() != "pf"
+]
 stars = sum(repo.get("stargazers_count", 0) for repo in owned)
 forks = sum(repo.get("forks_count", 0) for repo in owned)
-recent = sorted(owned, key=lambda repo: repo.get("pushed_at") or "", reverse=True)[:3]
+recent = sorted(
+    owned,
+    key=lambda repo: repo.get("pushed_at") or "",
+    reverse=True,
+)[:3]
+
 
 def ago(iso):
     if not iso:
@@ -38,9 +53,10 @@ def ago(iso):
     months = days // 30
     return f"UPDATED {months} MONTH" + ("" if months == 1 else "S")
 
+
 rows = []
-for i, repo in enumerate(recent):
-    y = 192 + i * 31
+for index, repo in enumerate(recent):
+    y = 192 + index * 31
     name = escape(repo.get("name", "Repository"))[:30]
     description = escape(repo.get("description") or "No description provided.")[:52]
     pushed = ago(repo.get("pushed_at"))
@@ -55,7 +71,7 @@ for i, repo in enumerate(recent):
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewBox="0 0 680 310" role="img" aria-labelledby="title desc">
 <title id="title">NOOCOKS // Repository Pulse</title>
-<desc id="desc">Live repository overview: {len(owned)} public repositories, {stars} stars and {forks} forks. Recently pushed projects are listed below.</desc>
+<desc id="desc">Live repository overview: {len(owned)} owned repositories, {stars} stars and {forks} forks. Recently pushed original repositories are listed below. Forks and the personal portfolio are excluded.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121317"/><stop offset=".56" stop-color="#080809"/><stop offset="1" stop-color="#18070C"/></linearGradient>
  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#790018"/><stop offset=".5" stop-color="#3B252C"/><stop offset="1" stop-color="#858B93"/></linearGradient>
@@ -82,7 +98,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewB
 <text x="30" y="101" font-size="29" font-weight="900" fill="#790018" letter-spacing="1">PULSE_</text>
 <g transform="translate(30 119)">
  <rect width="190" height="51" rx="6" fill="#790018" fill-opacity=".12" stroke="#790018" stroke-opacity=".7"/>
- <text x="14" y="18" class="label">PUBLIC PROJECTS</text><text x="14" y="43" class="value">{len(owned)}</text>
+ <text x="14" y="18" class="label">OWNED PROJECTS</text><text x="14" y="43" class="value">{len(owned)}</text>
  <rect x="205" width="190" height="51" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/>
  <text x="219" y="18" class="label">TOTAL STARS</text><text x="219" y="43" class="value">{stars}</text>
  <rect x="410" width="190" height="51" rx="6" fill="#111216" stroke="#555B63" stroke-opacity=".7"/>
@@ -91,7 +107,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewB
 <path d="M30 181H650" stroke="#858B93" stroke-opacity=".25"/>
 <text x="30" y="188" class="micro">RECENTLY PUSHED // LATEST PROJECT SIGNALS</text>
 {''.join(rows)}
-<text x="650" y="298" text-anchor="end" font-size="8" letter-spacing="2" fill="#555B63">LIVE GITHUB API // OWNER REPOSITORIES</text>
+<text x="650" y="298" text-anchor="end" font-size="8" letter-spacing="2" fill="#555B63">LIVE GITHUB API // ORIGINAL REPOSITORIES</text>
 </svg>'''
 Path("profile/repositories.svg").write_text(svg, encoding="utf-8")
-print(f"Generated repository pulse for {len(owned)} public repositories.")
+print(f"Generated repository pulse for {len(owned)} owned repositories.")
