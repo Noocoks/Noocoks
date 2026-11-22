@@ -117,6 +117,10 @@ A local desktop tool for turning written stories into vertical videos. It combin
 
 My current interests include secure application design, cross-platform development, interface engineering, automation, local AI and practical security labs.
 
+<div align="center">
+  <img src="./profile/riot-divider-final.svg?v=7" width="100%" alt="Industrial divider"/>
+</div>
+
 ## 06 / HOW I WORK
 
 - **Build to understand.** I prefer practical experiments and working prototypes over theory alone.
